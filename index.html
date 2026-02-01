@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Scout simulator for Pokémon Masters EX">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<title>Scout Simulator - Pokémon Masters EX</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div id="main">
+		<div id="left-panel">
+			<div id="bg-pattern"><div id="bg-pattern2"></div></div>
+
+			<div id="left-panel-top">
+				<select id="banner-selector"></select>
+
+				<div id="scout-stats"></div>
+			</div>
+
+			<div id="left-panel-middle">
+				<div id="banner-visual"></div>
+
+				<div id="scout-results"></div>
+			</div>
+
+			<div id="mindscape-viewer" class="hide">
+				<div id=mindscape-bg></div>
+				<img id="mindscape-image" src="" alt="Mindscape">
+			</div>
+
+			<div id="left-panel-bottom">
+				<div class="controls">
+					<label id="skip-animation-flag-label">
+						<input type="checkbox" id="skip-animation-flag"> Skip animation
+					</label>
+					<button class="hide" id="skip-animation-btn"></button>
+				</div>
+
+				<div class="controls" id="pull-controls"></div>
+			</div>
+		</div>
+
+		<button id="toggle-right-panel-btn"></button>
+
+		<div id="right-panel">
+			<div class="info-box">
+				<div id="banner-infos"></div>
+
+				<details>
+					<summary>Available Sync Pairs</summary>
+					<div id="banner-pools"></div>
+				</details>
+
+				<details>
+					<summary>Rates tests</summary>
+					<div id="test-rates">
+						<div id="test-buttons"></div>
+						<div id="test-results"></div>
+					</div>
+				</details>
+
+				<button id="reset-banner-btn" alt="Reset banner"></button>
+			</div>
+
+			<div class="info-box">
+				<h3>Scout Results <span id="results-count"></span></h3>
+				<div id="collection-list"></div>
+			</div>
+
+			<details id="informations">
+				<summary>Informations</summary>
+				<p><strong>Disclaimer:</strong> This fan-made scout simulator is not affiliated with the game developers. Getting lucky here should not encourage impulsive pulling in the actual game. Spend responsibly; this tool is for entertainment purposes only. Rates and pools are subject to change and remain unconfirmed until banners officially debut.</p>
+				<ul>
+					<li>Gems and Tickets can be manually adjusted by clicking on the currency values at the top of the screen.</li>
+					<li>There are no paid gems and all various ticket types are represented by one ticket. <img src="css/icon_tickets.png"></li>
+					<li>Template banners are generic configurations that represent common banner types (Spotlight, Seasonal, etc.). They serve as presets to illustrate typical banner structures and should not be confused with real in-game banners.</li>
+					<li>Scout results and scout points for a banner will reset automatically if you have not pulled on it for 60 consecutive days.</li>
+				</ul>
+			</details>
+		</div>
+	</div>
+
+	<script src="js/script.js" type="module"></script>
+</body>
+
+</html>
