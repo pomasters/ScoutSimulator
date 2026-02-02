@@ -561,6 +561,9 @@ function initializeInitialStats() {
 
 function updateStats() {
 	Object.entries(CURRENCIES).forEach(([key, config]) => {
+		if(STATE.currencies[key] > config.max) {
+			STATE.currencies[key] = config.max;
+		}
 		const input = document.getElementById(`input-${key}`);
 		if(input) {
 			input.value = STATE.currencies[key];
@@ -976,6 +979,7 @@ function updateBanner() {
 function setBannerBackground(banner) {
 	const { name, image, rarities } = banner;
 	const leftPanel = document.getElementById("left-panel");
+	const rightPanel = document.getElementById("right-panel");
 
 	leftPanel.className = "";
 
@@ -1000,6 +1004,7 @@ function setBannerBackground(banner) {
 	}
 
 	leftPanel.classList.add(...classes);
+	rightPanel.classList.remove("show");
 }
 
 function switchBanner(bannerKey) {
@@ -1183,9 +1188,13 @@ function initializeUI() {
 	initializeTestButtons();
 	updateBanner();
 
-	document.getElementById("toggle-right-panel-btn").addEventListener("click", () => {
-		document.getElementById("right-panel").classList.toggle("show");
-		document.getElementById("right-panel").classList.toggle("hide");
+	document.getElementById("show-right-panel-btn").addEventListener("click", () => {
+		document.getElementById("left-panel").classList.add("hide");
+		document.getElementById("right-panel").classList.add("show");
+	})
+	document.getElementById("hide-right-panel-btn").addEventListener("click", () => {
+		document.getElementById("left-panel").classList.remove("hide");
+		document.getElementById("right-panel").classList.remove("show");
 	})
 
 	document.getElementById("reset-banner-btn").addEventListener("click", resetCurrentBanner);

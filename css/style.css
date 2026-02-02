@@ -187,7 +187,7 @@ body {
 }
 
 #banner-selector {
-	min-height: 32px;
+	min-height: 28px;
 	width: 78%;
 	height: fit-content;
 	margin-left: 2%;
@@ -216,7 +216,7 @@ body {
 }
 
 .stat-currency {
-	min-height: 32px;
+	min-height: 28px;
 	width: 100%;
 	display: flex;
 	justify-content: end;
@@ -253,7 +253,7 @@ body {
 	position: relative;
 	display: flex;
 	justify-content: center;
-	margin-right: 20px;
+	margin-right: 8%;
 }
 
 #stat-scoutpoints img {
@@ -507,15 +507,22 @@ body {
 	justify-content: center;
 	align-items: center;
 	min-height: 45px;
+	position: relative;
+}
+
+#skip-animation-flag {
+	margin: 2px;
 }
 
 #skip-animation-flag-label {
 	background-color: #ffffffaa;
-	padding: 3px;
+	padding: 2px;
 	color: #4e4e4ee4;
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
+	display: flex;
+	align-items: center;
 }
 
 #skip-animation-btn {
@@ -627,22 +634,34 @@ body {
 	pointer-events: none;
 }
 
-#toggle-right-panel-btn {
+#show-right-panel-btn {
 	background: none;
 	background-image: url("btn_i.png");
 	background-size: contain;
-	width: 50px;
+	width: 8%;
 	aspect-ratio: 1;
 	border: none;
 	outline: none;
-	position: absolute;
-	bottom: 5px;
-	right: 5px;
+	margin-left: 2%;
 	z-index: 101;
 	display: none;
 }
 
-#toggle-right-panel-btn:hover {
+#hide-right-panel-btn {
+	background: none;
+	background-image: url("btn_back.png");
+	background-size: contain;
+	width: 10%;
+	aspect-ratio: 1;
+	border: none;
+	outline: none;
+	margin: 5px auto 0 0;
+	z-index: 101;
+	display: none;
+}
+
+#show-right-panel-btn:hover,
+#hide-right-panel-btn:hover {
 	scale: 0.9;
 	filter: brightness(0.9);
 	cursor: pointer;
@@ -864,25 +883,25 @@ details[open] > summary::before {
 		width: 30%;
 	}
 	#stat-scoutpoints p {
+		font-size: 0.95em;
 		min-width: 90%;
 	}
 
 	#banner-visual img {
 		max-width: 180%;
 	}
-	#toggle-right-panel-btn {
+	#show-right-panel-btn,
+	#hide-right-panel-btn {
 		display: block;
 	}
 
 	#right-panel {
 		display: none;
-		position: fixed;
-		overflow-y: auto;
-		width: 100%;
-		height: 100vh;
+		min-height: 100vh;
 		top: 0;
 		left: 0;
 		z-index: 100;
+		padding-top: 0;
 	}
 
 	#reset-banner-btn {
@@ -942,11 +961,17 @@ details[open] > summary::before {
 		width: calc(112% / 2);
 		aspect-ratio: 3 / 0.8;
 	}
-	#toggle-right-panel-btn {
+	.pull-cost {
+		font-size: 0.95em;
+		padding: 1px 3px 1px 16px;
+	}
+	#show-right-panel-btn,
+	#hide-right-panel-btn {
 		display: block;
 	}
 
 	#right-panel {
+		padding-top: 0;
 		font-size: 0.95em;
 	}
 
