@@ -562,6 +562,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	outline: none;
 	text-shadow: 0px 0px 2px rgb(0 0 0), 1px 0px 2px rgb(0 0 0 / 50%), -1px 0px 2px rgb(0 0 0 / 50%), 0px -1px 2px rgb(0 0 0 / 50%), 0px 1px 2px rgb(0 0 0 / 50%);
 }
 
@@ -672,48 +673,36 @@ body {
 	flex: 1;
 	display: flex;
 	flex-direction: column;
-	gap: 20px;
+	gap: 16px;
 	padding: 16px;
 	background-image: url("bg.png");
 	background-attachment: fixed;
 	font-size: 1.1em;
 	position: relative;
+	color: #002d35;
 }
 
-.info-box {
-	padding: 15px;
-	border-radius: 8px;
-	color: #00313b;
-	background-color: #a6d5df5c;
+#right-panel > details {
 	position: relative;
+	background-color: rgb(166 213 223 / 32%);
+	border-radius: 5px;
 }
 
-.info-box h3 {
-	margin: 0;
-}
-
-#banner-infos p {
-	margin: 8px 0;
-}
-
-details {
-	margin: 15px 0 10px 0;
-}
 
 summary {
 	display: flex;
 	cursor: pointer;
 	font-weight: bold;
 	padding: 10px;
-	background-color: #a6d5dfd9;
+	background-color: rgb(166 213 223 / 64%);
 	border-radius: 5px;
 	user-select: none;
 	outline: none;
 }
 
 summary::before {
-	content: '▶';
-	margin-left: 5px;
+	content: "❯";
+	margin-left: 6px;
 	margin-right: 10px;
 	transition: transform 0.2s;
 	font-size: 0.7em;
@@ -723,12 +712,38 @@ details[open] > summary::before {
 	transform: rotate(90deg);
 }
 
-#informations summary {
-	background-color: #a6d5df5c;
+
+#informations, #collection-list, #test-rates {
+	padding: 16px;
+}
+
+#banner-name {
+	font-size: 1.4em;
+	margin: 0;
+	background-color: transparent;
+	padding: 10px 16px;
+}
+
+#banner-name::before {
+	content: none;
+}
+#banner-data {
+	padding: 0 16px 16px 16px;
+}
+
+#banner-infos > p {
+	margin: 0 auto 5px 0;
+}
+#banner-infos > p:last-child {
+	margin-bottom: 12px;
 }
 
 #banner-pools {
-	margin-left: 12px;
+	margin-left: 10px;
+}
+
+#banner-pools details {
+	margin-top: 12px;
 }
 
 .rarity-divider {
@@ -744,11 +759,11 @@ details[open] > summary::before {
 }
 
 .pool-category {
-	padding: 10px;
+	margin: 12px 0;
 }
 
 .category-title {
-	margin: 0 0 10px 0;
+	margin: 8px 0;
 	font-weight: bold;
 	color: #333;
 }
@@ -756,7 +771,7 @@ details[open] > summary::before {
 .pool-list {
 	list-style: none;
 	padding: 0;
-	margin: 0;
+	margin: 12px 0 0 0;
 	display: grid;
 	grid-template-columns: repeat(15, 1fr);
 	overflow-y: auto;
@@ -797,9 +812,7 @@ details[open] > summary::before {
 #collection-list {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-	max-height: 255px;
 	overflow-y: auto;
-	margin-top: 8px;
 }
 
 #collection-list:empty {
@@ -824,13 +837,9 @@ details[open] > summary::before {
 }
 
 
-#test-rates {
-	padding: 12px;
-}
-
 #test-buttons {
 	display: flex;
-	gap: 5px;
+	gap: 10px;
 }
 
 .test-btn {
@@ -857,8 +866,8 @@ details[open] > summary::before {
 	width: 55px;
 }
 
-#informations {
-	margin: 0;
+#informations p {
+	margin: 10px 0;
 }
 
 #informations img {
@@ -902,6 +911,10 @@ details[open] > summary::before {
 		left: 0;
 		z-index: 100;
 		padding-top: 0;
+	}
+
+	#banner-name {
+		width: 88%;
 	}
 
 	#reset-banner-btn {

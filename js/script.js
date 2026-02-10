@@ -904,11 +904,9 @@ function buildBannerInfosHTML(banner) {
 	? `<p><strong>Dates:</strong> ${banner.startDate} to ${banner.endDate}</p>` 
 	: '';
 
-	document.getElementById("banner-infos").innerHTML = `
-		<h3>${banner.name}</h3>
-		${scoutPointsP}
-		${datesP}
-	`;
+	document.getElementById("banner-name").textContent = banner.name;
+
+	document.getElementById("banner-infos").innerHTML = scoutPointsP + datesP;
 
 	let guaranteedInfoP = '';
 	if(banner.guaranteedPool && banner.guaranteedPool.length > 0) {
@@ -1180,12 +1178,27 @@ function cleanupInactiveBanners() {
 
 
 // ===== INITIALIZATION =====
+function initializeInformationsState() {
+	const details = document.getElementById("informations").parentElement;
+	if(!details) return;
+
+	const savedState = localStorage.getItem("informations-open");
+	if(savedState !== null) {
+		details.open = savedState === "true";
+	}
+
+	details.addEventListener("toggle", () => {
+		localStorage.setItem("informations-open", details.open);
+	});
+}
+
 function initializeUI() {
 	initializeBannerButtons();
 	initializeSkipButton();
 	initializeInitialStats();
 	initializePullButtons();
 	initializeTestButtons();
+	initializeInformationsState();
 	updateBanner();
 
 	document.getElementById("show-right-panel-btn").addEventListener("click", () => {

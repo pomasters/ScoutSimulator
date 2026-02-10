@@ -46,43 +46,55 @@
 			</div>
 		</div>
 
-
 		<div id="right-panel">
 			<button id="hide-right-panel-btn"></button>
 
-			<div class="info-box">
-				<div id="banner-infos"></div>
+			<details open>
+				<summary id="banner-name"></summary>
 
-				<details>
-					<summary>Available Sync Pairs</summary>
-					<div id="banner-pools"></div>
-				</details>
+				<div id="banner-data">
+					<div id="banner-infos"></div>
 
-				<details>
-					<summary>Rates tests</summary>
-					<div id="test-rates">
-						<div id="test-buttons"></div>
-						<div id="test-results"></div>
-					</div>
-				</details>
+					<details>
+						<summary>Available Sync Pairs</summary>
+						<div id="banner-pools"></div>
+					</details>
 
-				<button id="reset-banner-btn" alt="Reset banner"></button>
-			</div>
+					<button id="reset-banner-btn" alt="Reset banner"></button>
+				</div>
+			</details>
 
-			<div class="info-box">
-				<h3>Scout Results <span id="results-count"></span></h3>
+			<details open>
+				<summary>Scout Results&nbsp;<span id="results-count"></span></summary>
+
 				<div id="collection-list"></div>
-			</div>
+			</details>
 
-			<details id="informations">
-				<summary>Informations</summary>
-				<p><strong>Disclaimer:</strong> This fan-made scout simulator is not affiliated with the game developers. Getting lucky here should not encourage impulsive pulling in the actual game. Spend responsibly; this tool is for entertainment purposes only. Rates and pools are subject to change and remain unconfirmed until banners officially debut.</p>
-				<ul>
-					<li>Gems and Tickets can be manually adjusted by clicking on the currency values at the top of the screen.</li>
-					<li>There are no paid gems and all various ticket types are represented by one ticket. <img src="css/icon_tickets.png"></li>
-					<li>Template banners are generic configurations that represent common banner types (Spotlight, Seasonal, etc.). They serve as presets to illustrate typical banner structures and should not be confused with real in-game banners.</li>
-					<li>Scout results and scout points for a banner will reset automatically if you have not pulled on it for 60 consecutive days.</li>
-				</ul>
+			<details>
+				<summary>Rates tests</summary>
+
+				<div id="test-rates">
+					<div id="test-buttons"></div>
+					<div id="test-results"></div>
+				</div>
+			</details>
+
+			<details open>
+				<summary>About this Simulator</summary>
+
+				<div id="informations">
+					<p><strong>Disclaimer:</strong> It is easy to feel lucky when you have infinite pulls; do not let this tool give you a false sense of confidence. Good or bad results obtained here have zero impact on your actual in-game luck and should not encourage impulsive pulling. Luck does not transfer, accumulate, or "balance out" over time!</p>
+					<p>This fan-made simulator is for entertainment purposes only and is not affiliated with the game developers. Rates and pools are subject to change and remain unconfirmed until banners officially debut.</p>
+					<p>
+						<br><strong>General Informations</strong>
+						<ul>
+							<li>Gems and Tickets can be manually adjusted by clicking on the currency values at the top of the screen.</li>
+							<li>There are no paid gems and all various ticket types are represented by one ticket. <img src="css/icon_tickets.png"></li>
+							<li>Template banners are generic configurations that represent common banner types (Spotlight, Seasonal, etc.). They serve as presets to illustrate typical banner structures and should not be confused with real in-game banners.</li>
+							<li>Scout results and scout points for a banner will reset automatically if you have not pulled on it for 60 consecutive days.</li>
+						</ul>
+					</p>
+				</div>
 			</details>
 		</div>
 	</div>
