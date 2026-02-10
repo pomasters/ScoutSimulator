@@ -526,23 +526,24 @@ body {
 }
 
 #skip-animation-btn {
-	background: none;
-	border: none;
-	width: 10%;
-	aspect-ratio: 2 / 1;
-	min-width: 32px;
+	width: 8%;
+	aspect-ratio: 1.92 / 1;
 	margin-left: 10px;
-	background-image: url(btn_skip.png);
+	border: 1px solid #73968C;
+	border-radius: 5px;
+	background: url("btn_skip.png"), linear-gradient(0deg, #D3E7DD, #F1FFFF);
+	background-size: 26%, contain;
 	background-position: center;
-	background-size: contain;
 	background-repeat: no-repeat;
+	box-shadow: #7e7e7ebf 1px 1px 2px 0px;
 }
-
 #skip-animation-btn:hover {
-	transition: transform 0.1s;
+	transition: transform 0.05s;
 	cursor: pointer;
-	transform: scale(0.90);
 	filter: brightness(0.9);
+}
+#skip-animation-btn:active {
+	transform: scale(0.9);
 }
 
 
