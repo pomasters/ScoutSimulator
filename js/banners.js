@@ -114,6 +114,74 @@ export const SYNCPAIR_SCOUT = {
 		"exclude": ["FROM_2026-02-19"],
 		"pullButtons": ["GEMx1", "GEMx11", "DAILYx1"]
 	},
+	"event_8010_2W_PokeFesSelection_01": {
+		"scoutId": "event_8010_2W_PokeFesSelection_01",
+		"name": "5★-Select Fair-Exclusive Scout ×11",
+		"image": "./banners/event_8010_2W_PokeFesSelection_01.png",
+		"scoutPoints": 1,
+		"startDate": "2026-02-06 06:00:00 UTC",
+		"endDate": "2026-02-19 06:00:00 UTC",
+		"rarities": {
+			"3": [
+				{ "rate": 0.7, "pool": ["SPOTLIGHT_3"] }
+			],
+			"4": [
+				{ "rate": 0.2, "pool": ["SPOTLIGHT_4","POKEFAIR_4"] }
+			],
+			"5": [
+				{ "rate": 0.1, "pool": ["SPOTLIGHT_5","POKEFAIR_5"] }
+			]
+		},
+		"guaranteed": [],
+		"exclude": ["FROM_2026-02-06"],
+		"pullButtons": ["SPECIALselectx1"]
+	},
+	"event_8010_3W_forTicket_01": {
+		"scoutId": "event_8010_3W_forTicket_01",
+		"name": "Run-Up to Double Anniversary! 10-Pair Scout (Fair-exclusive pairs included!)",
+		"image": "./banners/event_8010_3W_forTicket_01.png",
+		"scoutPoints": 2,
+		"startDate": "2026-02-17 06:00:00 UTC",
+		"endDate": "2026-04-07 06:00:00 UTC",
+		"rarities": {
+			"3": [
+				{ "rate": 0.73, "pool": ["SPOTLIGHT_3"] }
+			],
+			"4": [
+				{ "rate": 0.2, "pool": ["SPOTLIGHT_4","POKEFAIR_4"] }
+			],
+			"5": [
+				{ "rate": 0.05, "pool": ["SPOTLIGHT_5"] },
+				{ "rate": 0.02, "pool": ["POKEFAIR_5"] }
+			]
+		},
+		"guaranteed": [],
+		"exclude": ["FROM_2026-02-17"],
+		"pullButtons": ["POKEFAIRx10"]
+	},
+	"event_8010_3W_forTicket_02": {
+		"scoutId": "event_8010_3W_forTicket_02",
+		"name": "Run-Up to Double Anniversary! 10-Pair Scout (Fair-exclusive pair guaranteed!)",
+		"image": "./banners/event_8010_3W_forTicket_01.png",
+		"scoutPoints": 2,
+		"startDate": "2026-02-17 06:00:00 UTC",
+		"endDate": "2026-04-07 06:00:00 UTC",
+		"rarities": {
+			"3": [
+				{ "rate": 0.73, "pool": ["SPOTLIGHT_3"] }
+			],
+			"4": [
+				{ "rate": 0.2, "pool": ["SPOTLIGHT_4","POKEFAIR_4"] }
+			],
+			"5": [
+				{ "rate": 0.05, "pool": ["SPOTLIGHT_5"] },
+				{ "rate": 0.02, "pool": ["POKEFAIR_5"] }
+			]
+		},
+		"guaranteed": ["POKEFAIR_5"],
+		"exclude": ["FROM_2026-02-17"],
+		"pullButtons": ["POKEFAIRx10"]
+	},
 	"event_8010_1W_Monthly_04": {
 		"scoutId": "event_8010_1W_Monthly_04",
 		"name": "Monthly Poké Fair Vol. 42",
