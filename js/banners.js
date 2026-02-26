@@ -137,7 +137,7 @@ export const SYNCPAIR_SCOUT = {
 				{ "rate": 0.2, "pool": [ "SPOTLIGHT_4" ] }
 			],
 			"5": [
-				{ "rate": 0.02, "pool": ["Marnie_0861"] },
+				{ "rate": 0.02, "pool": ["Marnie_0861|2"] },
 				{ "rate": 0.01, "pool": ["Akari_0503", "Arven_0943"] },
 				{ "rate": 0.07, "pool": ["SPOTLIGHT_5"] }
 			]
