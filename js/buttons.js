@@ -9,6 +9,7 @@ export const SCOUT_BUTTONS = {
 	"PAIDx1": { "quantity": 1, "costs": { "gems": 100 }, "points": 1, "label": "1","type": "orange" },
 	"PAIDx3": { "quantity": 3, "costs": { "gems": 300 }, "points": 3, "label": "3","type": "orange" },
 	"PAIDx5": { "quantity": 5, "costs": { "gems": 500 }, "points": 5, "label": "5","type": "orange2" },
+	"PAIDx25": { "quantity": 25, "costs": { "gems": 5000 }, "points": 0, "label": "×25","type": "orange2" },
 
 	"FREEx1": { "quantity": 1, "costs": {}, "points": 0, "label": "1","type": "free" },
 	"FREEx11": { "quantity": 11, "costs": {}, "points": 0, "label": "11","type": "free" },

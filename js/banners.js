@@ -1,126 +1,112 @@
 export const SYNCPAIR_SCOUT = {
-	"event_8010_1W_Season_02": {
-		"scoutId": "event_8010_1W_Season_02",
-		"name": "Rika Seasonal Scout",
-		"image": "./banners/event_8010_1W_Season_02_01.png",
+
+	"event_8020_1W_MasterExFes_01": {
+		"scoutId": "event_8020_1W_MasterExFes_01",
+		"name": "Red EX Master Fair",
+		"image": "./banners/event_8020_1W_MasterExFes_01.png",
 		"scoutPoints": 400,
-		"startDate": "2026-01-30 06:00:00 UTC",
-		"endDate": "2026-02-17 06:00:00 UTC",
+		"startDate": "2026-02-27 14:20:00 UTC",
+		"endDate": "2026-04-13 06:00:00 UTC",
 		"rarities": {
 			"3": [
-				{ "rate": 0.73, "pool": ["SPOTLIGHT_3"] }
+				{ "rate": 0.68, "pool": [ "SPOTLIGHT_3"] }
 			],
 			"4": [
-				{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
+				{ "rate": 0.2, "pool": [ "SPOTLIGHT_4" ] }
 			],
 			"5": [
-				{ "rate": 0.02, "pool": ["Rika_0195"] },
-				{ "rate": 0.05, "pool": ["SPOTLIGHT_5"] }
+				{ "rate": 0.01, "pool": ["Red_0025|2"] },
+				{ "rate": 0.01, "pool": ["Hau_0785", "Iono_0939"] },
+				{ "rate": 0.01, "pool": ["POKEFAIR_5"] },
+				{ "rate": 0.09, "pool": ["SPOTLIGHT_5"] }
 			]
 		},
 		"guaranteed": [],
-		"exclude": ["FROM_2026-01-30"],
+		"exclude": ["FROM_2026-02-27"],
 		"pullButtons": ["GEMx1", "GEMx11", "DAILYx1"]
 	},
-	"event_8010_1W_Season_01": {
-		"scoutId": "event_8010_1W_Season_01",
-		"name": "Adaman Seasonal Scout",
-		"image": "./banners/event_8010_1W_Season_01_01.png",
+	"event_8020_1W_MasterExFes_04": {
+		"scoutId": "event_8020_1W_MasterExFes_04",
+		"name": "Florian EX Master Fair",
+		"image": "./banners/event_8020_1W_MasterExFes_04.png",
 		"scoutPoints": 400,
-		"startDate": "2026-02-01 06:00:00 UTC",
-		"endDate": "2026-02-17 06:00:00 UTC",
+		"startDate": "2026-02-28 06:00:00 UTC",
+		"endDate": "2026-04-09 06:00:00 UTC",
 		"rarities": {
 			"3": [
-				{ "rate": 0.73, "pool": ["SPOTLIGHT_3"] }
+				{ "rate": 0.68, "pool": [ "SPOTLIGHT_3"] }
 			],
 			"4": [
-				{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
+				{ "rate": 0.2, "pool": [ "SPOTLIGHT_4" ] }
 			],
 			"5": [
-				{ "rate": 0.02, "pool": ["Adaman_0700"] },
-				{ "rate": 0.05, "pool": ["SPOTLIGHT_5"] }
+				{ "rate": 0.01, "pool": ["Florian_1017"] },
+				{ "rate": 0.01, "pool": ["Acerola_0787", "Greta_0286"] },
+				{ "rate": 0.01, "pool": ["POKEFAIR_5"] },
+				{ "rate": 0.09, "pool": ["SPOTLIGHT_5"] }
 			]
 		},
 		"guaranteed": [],
-		"exclude": ["FROM_2026-02-01"],
+		"exclude": ["FROM_2026-02-28"],
 		"pullButtons": ["GEMx1", "GEMx11", "DAILYx1"]
 	},
-	"event_8010_1W_Season_03": {
-		"scoutId": "event_8010_1W_Season_03",
-		"name": "Super Spotlight Seasonal Scout",
-		"image": "./banners/event_8010_1W_Season_03.png",
+	"event_8020_1W_MasterExFes_06": {
+		"scoutId": "event_8020_1W_MasterExFes_06",
+		"name": "Juliana EX Master Fair",
+		"image": "./banners/event_8020_1W_MasterExFes_06.png",
 		"scoutPoints": 400,
-		"startDate": "2026-02-03 06:00:00 UTC",
-		"endDate": "2026-02-19 06:00:00 UTC",
+		"startDate": "2026-03-02 06:00:00 UTC",
+		"endDate": "2026-04-09 06:00:00 UTC",
 		"rarities": {
 			"3": [
-				{ "rate": 0.73, "pool": ["SPOTLIGHT_3"] }
+				{ "rate": 0.68, "pool": [ "SPOTLIGHT_3"] }
 			],
 			"4": [
-				{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
+				{ "rate": 0.2, "pool": [ "SPOTLIGHT_4" ] }
 			],
 			"5": [
-				{ "rate": 0.02, "pool": ["Erika_0754","Candice_0555","Marley_0492","Elesa_0176","Dawn_0869","Mallow_0842","Serena_0547","Victor_0820","Marnie_0303","Bea_0584"] },
-				{ "rate": 0.05, "pool": ["SPOTLIGHT_5"] }
+				{ "rate": 0.01, "pool": ["Juliana_1024"] },
+				{ "rate": 0.01, "pool": ["Red_0143", "Elaine_0133"] },
+				{ "rate": 0.01, "pool": ["POKEFAIR_5"] },
+				{ "rate": 0.09, "pool": ["SPOTLIGHT_5"] }
 			]
 		},
 		"guaranteed": [],
-		"exclude": ["FROM_2026-02-03"],
-		"pullButtons": ["GEMx1","GEMx11","DAILYx1"]
-	},
-	"event_8010_3W_UltimateFes_05": {
-		"scoutId": "event_8010_3W_UltimateFes_05",
-		"name": "Misty Arc Suit Fair",
-		"image": "./banners/event_8010_3W_UltimateFes_05_01.png",
-		"scoutPoints": 500,
-		"startDate": "2026-02-17 06:00:00 UTC",
-		"endDate": "2026-03-14 06:00:00 UTC",
-		"rarities": {
-			"3": [
-				{ "rate": 0.68, "pool": ["SPOTLIGHT_3"] }
-			],
-			"4": [
-				{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
-			],
-			"5": [
-				{ "rate": 0.01, "pool": ["Misty_0121|2"] },
-				{ "rate": 0.11, "pool": ["SPOTLIGHT_5"] }
-			]
-		},
-		"guaranteed": [],
-		"exclude": ["FROM_2026-02-17"],
+		"exclude": ["FROM_2026-03-02"],
 		"pullButtons": ["GEMx1", "GEMx11", "DAILYx1"]
 	},
-	"event_8010_3W_UltimateFes_03": {
-		"scoutId": "event_8010_3W_UltimateFes_03",
-		"name": "Brock Arc Suit Fair",
-		"image": "./banners/event_8010_3W_UltimateFes_03_01.png",
-		"scoutPoints": 500,
-		"startDate": "2026-02-19 06:00:00 UTC",
-		"endDate": "2026-03-14 06:00:00 UTC",
+	"event_8020_1W_MasterExFes_08": {
+		"scoutId": "event_8020_1W_MasterExFes_08",
+		"name": "48-Hour Paid-Gem Scout ×25 EX Master Fair",
+		"image": "./banners/event_8020_1W_MasterExFes_08.png",
+		"scoutPoints": 1,
+		"startDate": "2026-02-28 06:00:00 UTC",
+		"endDate": "2026-03-02 06:00:00 UTC",
 		"rarities": {
 			"3": [
-				{ "rate": 0.68, "pool": ["SPOTLIGHT_3"] }
+				{ "rate": 0.68, "pool": [ "SPOTLIGHT_3"] }
 			],
 			"4": [
-				{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
+				{ "rate": 0.2, "pool": [ "SPOTLIGHT_4" ] }
 			],
 			"5": [
-				{ "rate": 0.01, "pool": ["Brock_0095|2"] },
-				{ "rate": 0.11, "pool": ["SPOTLIGHT_5"] }
+				{ "rate": 0.01, "pool": ["Florian_1017", "Juliana_1024"] },
+				{ "rate": 0.01, "pool": ["Acerola_0787", "Greta_0286", "Red_0143", "Elaine_0133"] },
+				{ "rate": 0.01, "pool": ["POKEFAIR_5"] },
+				{ "rate": 0.09, "pool": ["SPOTLIGHT_5"] }
 			]
 		},
 		"guaranteed": [],
-		"exclude": ["FROM_2026-02-19"],
-		"pullButtons": ["GEMx1", "GEMx11", "DAILYx1"]
+		"exclude": ["FROM_2026-03-02"],
+		"pullButtons": ["PAIDx25"]
 	},
-	"event_8010_2W_PokeFesSelection_01": {
-		"scoutId": "event_8010_2W_PokeFesSelection_01",
+	"event_7120_2W_PokeFesSelection_01": {
+		"scoutId": "event_7120_2W_PokeFesSelection_01",
 		"name": "5★-Select Fair-Exclusive Scout ×11",
 		"image": "./banners/event_8010_2W_PokeFesSelection_01.png",
 		"scoutPoints": 1,
-		"startDate": "2026-02-06 06:00:00 UTC",
-		"endDate": "2026-02-19 06:00:00 UTC",
+		"startDate": "2026-03-10 06:00:00 UTC",
+		"endDate": "2026-03-22 06:00:00 UTC",
 		"rarities": {
 			"3": [
 				{ "rate": 0.7, "pool": ["SPOTLIGHT_3"] }
@@ -133,62 +119,227 @@ export const SYNCPAIR_SCOUT = {
 			]
 		},
 		"guaranteed": [],
-		"exclude": ["FROM_2026-02-06"],
+		"exclude": ["FROM_2026-03-10"],
 		"pullButtons": ["SPECIALselectx1"]
 	},
-	"event_8010_3W_forTicket_01": {
-		"scoutId": "event_8010_3W_forTicket_01",
-		"name": "Run-Up to Double Anniversary! 10-Pair Scout (Fair-exclusive pairs included!)",
-		"image": "./banners/event_8010_3W_forTicket_01.png",
-		"scoutPoints": 2,
-		"startDate": "2026-02-17 06:00:00 UTC",
-		"endDate": "2026-04-07 06:00:00 UTC",
+	"event_8020_3W_ExPokeFes_01": {
+		"scoutId": "event_8020_3W_ExPokeFes_01",
+		"name": "Marnie EX Fair",
+		"image": "./banners/event_8020_3W_ExPokeFes_01.png",
+		"scoutPoints": 400,
+		"startDate": "2026-03-14 06:00:00 UTC",
+		"endDate": "2026-04-11 06:00:00 UTC",
 		"rarities": {
 			"3": [
-				{ "rate": 0.73, "pool": ["SPOTLIGHT_3"] }
+				{ "rate": 0.70, "pool": [ "SPOTLIGHT_3"] }
 			],
 			"4": [
-				{ "rate": 0.2, "pool": ["SPOTLIGHT_4","POKEFAIR_4"] }
+				{ "rate": 0.2, "pool": [ "SPOTLIGHT_4" ] }
 			],
 			"5": [
-				{ "rate": 0.05, "pool": ["SPOTLIGHT_5"] },
-				{ "rate": 0.02, "pool": ["POKEFAIR_5"] }
+				{ "rate": 0.02, "pool": ["Marnie_0861"] },
+				{ "rate": 0.01, "pool": ["Akari_0503", "Arven_0943"] },
+				{ "rate": 0.07, "pool": ["SPOTLIGHT_5"] }
 			]
 		},
 		"guaranteed": [],
-		"exclude": ["FROM_2026-02-17"],
-		"pullButtons": ["POKEFAIRx10"]
+		"exclude": ["FROM_2026-03-14"],
+		"pullButtons": ["GEMx1", "GEMx11", "DAILYx1"]
 	},
-	"event_8010_3W_forTicket_02": {
-		"scoutId": "event_8010_3W_forTicket_02",
-		"name": "Run-Up to Double Anniversary! 10-Pair Scout (Fair-exclusive pair guaranteed!)",
-		"image": "./banners/event_8010_3W_forTicket_01.png",
-		"scoutPoints": 2,
-		"startDate": "2026-02-17 06:00:00 UTC",
-		"endDate": "2026-04-07 06:00:00 UTC",
+	"event_8020_3W_ExPokeFes_02": {
+		"scoutId": "event_8020_3W_ExPokeFes_02",
+		"name": "Bede EX Fair",
+		"image": "./banners/event_8020_3W_ExPokeFes_02.png",
+		"scoutPoints": 400,
+		"startDate": "2026-03-16 06:00:00 UTC",
+		"endDate": "2026-04-11 06:00:00 UTC",
 		"rarities": {
 			"3": [
-				{ "rate": 0.73, "pool": ["SPOTLIGHT_3"] }
+				{ "rate": 0.70, "pool": [ "SPOTLIGHT_3"] }
 			],
 			"4": [
-				{ "rate": 0.2, "pool": ["SPOTLIGHT_4","POKEFAIR_4"] }
+				{ "rate": 0.2, "pool": [ "SPOTLIGHT_4" ] }
 			],
 			"5": [
-				{ "rate": 0.05, "pool": ["SPOTLIGHT_5"] },
-				{ "rate": 0.02, "pool": ["POKEFAIR_5"] }
+				{ "rate": 0.02, "pool": ["Bede_0078"] },
+				{ "rate": 0.01, "pool": ["Diantha_0282", "Volo_0175"] },
+				{ "rate": 0.07, "pool": ["SPOTLIGHT_5"] }
 			]
 		},
-		"guaranteed": ["POKEFAIR_5"],
-		"exclude": ["FROM_2026-02-17"],
-		"pullButtons": ["POKEFAIRx10"]
+		"guaranteed": [],
+		"exclude": ["FROM_2026-03-16"],
+		"pullButtons": ["GEMx1", "GEMx11", "DAILYx1"]
 	},
-	"event_8010_1W_Monthly_04": {
-		"scoutId": "event_8010_1W_Monthly_04",
-		"name": "Monthly Poké Fair Vol. 42",
-		"image": "./banners/event_6090_0W_Monthly_01_01.png",
+
+	"event_8020_3W_UltimateFes_03": {
+		"scoutId": "event_8020_3W_UltimateFes_03",
+		"name": "48 Hours Cynthia Arc Suit Fair",
+		"image": "./banners/event_8020_3W_UltimateFes_03_01.png",
+		"scoutPoints": 500,
+		"startDate": "2026-03-18 06:00:00 UTC",
+		"endDate": "2026-03-20 06:00:00 UTC",
+		"rarities": {
+			"3": [
+				{ "rate": 0.68, "pool": ["SPOTLIGHT_3"] }
+			],
+			"4": [
+				{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
+			],
+			"5": [
+				{ "rate": 0.01, "pool": ["Cynthia_0445|2"] },
+				{ "rate": 0.11, "pool": ["SPOTLIGHT_5"] }
+			]
+		},
+		"guaranteed": [],
+		"exclude": ["FROM_2026-03-18"],
+		"pullButtons": ["GEMx1", "GEMx11", "DAILYx1"]
+	},
+	"event_8020_3W_UltimateFes_05": {
+		"scoutId": "event_8020_3W_UltimateFes_05",
+		"name": "48 Hours Lance Arc Suit Fair",
+		"image": "./banners/event_8020_3W_UltimateFes_05_01.png",
+		"scoutPoints": 500,
+		"startDate": "2026-03-20 06:00:00 UTC",
+		"endDate": "2026-03-22 06:00:00 UTC",
+		"rarities": {
+			"3": [
+				{ "rate": 0.68, "pool": ["SPOTLIGHT_3"] }
+			],
+			"4": [
+				{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
+			],
+			"5": [
+				{ "rate": 0.01, "pool": ["Lance_0149|2"] },
+				{ "rate": 0.11, "pool": ["SPOTLIGHT_5"] }
+			]
+		},
+		"guaranteed": [],
+		"exclude": ["FROM_2026-03-20"],
+		"pullButtons": ["GEMx1", "GEMx11", "DAILYx1"]
+	},
+	"event_8020_3W_UltimateFes_07": {
+		"scoutId": "event_8020_3W_UltimateFes_07",
+		"name": "48 Hours Steven Arc Suit Fair",
+		"image": "./banners/event_8020_3W_UltimateFes_07_01.png",
+		"scoutPoints": 500,
+		"startDate": "2026-03-22 06:00:00 UTC",
+		"endDate": "2026-03-24 06:00:00 UTC",
+		"rarities": {
+			"3": [
+				{ "rate": 0.68, "pool": ["SPOTLIGHT_3"] }
+			],
+			"4": [
+				{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
+			],
+			"5": [
+				{ "rate": 0.01, "pool": ["Steven_0376|2"] },
+				{ "rate": 0.11, "pool": ["SPOTLIGHT_5"] }
+			]
+		},
+		"guaranteed": [],
+		"exclude": ["FROM_2026-03-22"],
+		"pullButtons": ["GEMx1", "GEMx11", "DAILYx1"]
+	},
+	"event_8020_3W_UltimateFes_09": {
+		"scoutId": "event_8020_3W_UltimateFes_09",
+		"name": "48 Hours Leon Arc Suit Fair",
+		"image": "./banners/event_8020_3W_UltimateFes_09_01.png",
+		"scoutPoints": 500,
+		"startDate": "2026-03-24 06:00:00 UTC",
+		"endDate": "2026-03-26 06:00:00 UTC",
+		"rarities": {
+			"3": [
+				{ "rate": 0.68, "pool": ["SPOTLIGHT_3"] }
+			],
+			"4": [
+				{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
+			],
+			"5": [
+				{ "rate": 0.01, "pool": ["Leon_0006|2"] },
+				{ "rate": 0.11, "pool": ["SPOTLIGHT_5"] }
+			]
+		},
+		"guaranteed": [],
+		"exclude": ["FROM_2026-03-24"],
+		"pullButtons": ["GEMx1", "GEMx11", "DAILYx1"]
+	},
+	"event_8020_3W_UltimateFes_011": {
+		"scoutId": "event_8020_3W_UltimateFes_011",
+		"name": "48 Hours N Arc Suit Fair",
+		"image": "./banners/event_8020_3W_UltimateFes_011_01.png",
+		"scoutPoints": 500,
+		"startDate": "2026-03-26 06:00:00 UTC",
+		"endDate": "2026-03-28 06:00:00 UTC",
+		"rarities": {
+			"3": [
+				{ "rate": 0.68, "pool": ["SPOTLIGHT_3"] }
+			],
+			"4": [
+				{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
+			],
+			"5": [
+				{ "rate": 0.01, "pool": ["N_0571|2"] },
+				{ "rate": 0.11, "pool": ["SPOTLIGHT_5"] }
+			]
+		},
+		"guaranteed": [],
+		"exclude": ["FROM_2026-03-26"],
+		"pullButtons": ["GEMx1", "GEMx11", "DAILYx1"]
+	},
+	"event_8020_3W_UltimateFes_013": {
+		"scoutId": "event_8020_3W_UltimateFes_013",
+		"name": "48 Hours Alder Arc Suit Fair",
+		"image": "./banners/event_8020_3W_UltimateFes_013_01.png",
+		"scoutPoints": 500,
+		"startDate": "2026-03-28 06:00:00 UTC",
+		"endDate": "2026-03-30 06:00:00 UTC",
+		"rarities": {
+			"3": [
+				{ "rate": 0.68, "pool": ["SPOTLIGHT_3"] }
+			],
+			"4": [
+				{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
+			],
+			"5": [
+				{ "rate": 0.01, "pool": ["Alder_0637|2"] },
+				{ "rate": 0.11, "pool": ["SPOTLIGHT_5"] }
+			]
+		},
+		"guaranteed": [],
+		"exclude": ["FROM_2026-03-28"],
+		"pullButtons": ["GEMx1", "GEMx11", "DAILYx1"]
+	},
+
+	"event_8020_4W_MasterFes_04": {
+		"scoutId": "event_8020_4W_MasterFes_04",
+		"name": "Triple Feature Master Fair",
+		"image": "./banners/event_8020_4W_MasterFes_04.png",
 		"scoutPoints": 400,
-		"startDate": "2026-02-01 06:00:00 UTC",
-		"endDate": "2026-03-01 06:00:00 UTC",
+		"startDate": "2026-03-25 06:00:00 UTC",
+		"endDate": "2026-04-25 06:00:00 UTC",
+		"rarities": {
+			"3": [
+				{ "rate": 0.68, "pool": ["SPOTLIGHT_3"] }
+			],
+			"4": [
+				{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
+			],
+			"5": [
+				{ "rate": 0.01, "pool": ["Gladion_0801", "Marnie_0146", "Serena_0718"] },
+				{ "rate": 0.11, "pool": ["SPOTLIGHT_5"] }
+			]
+		},
+		"guaranteed": [],
+		"exclude": ["FROM_2026-03-25","Ash_0025"],
+		"pullButtons": ["GEMx1", "GEMx11", "DAILYx1"]
+	},
+	"event_8020_0W_Monthly_02": {
+		"scoutId": "event_8020_0W_Monthly_02",
+		"name": "Monthly Poké Fair",
+		"image": "./banners/event_6100_1W_Monthly_01_01.png",
+		"scoutPoints": 400,
+		"startDate": "2026-03-01 06:00:00 UTC",
+		"endDate": "2026-04-01 06:00:00 UTC",
 		"rarities": {
 			"3": [
 				{ "rate": 0.7, "pool": ["SPOTLIGHT_3"] }
@@ -197,7 +348,7 @@ export const SYNCPAIR_SCOUT = {
 				{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
 			],
 			"5": [
-				{ "rate": 0.02, "pool": ["Lear_0720"] },
+				{ "rate": 0.02, "pool": ["Steven_0376"] },
 				{ "rate": 0.08, "pool": ["SPOTLIGHT_5","Cynthia_0445","Steven_0376","Lance_0149","Gloria_0888","N_0644","Marnie_0877","Diantha_0282","Raihan_0884","Lear_0720","Penny_0700","Iono_0939","Volo_0175","Rika_0980","Larry_0982","Kabu_0851","Arven_0943"] }
 			]
 		},
@@ -205,13 +356,14 @@ export const SYNCPAIR_SCOUT = {
 		"exclude": ["FROM_2026-02-01","Misty_0134","Grimsley_0319","Elesa_0479","Erika_0470","The Masked Royal_0727","Grimsley_0625"],
 		"pullButtons": ["GEMx1", "GEMx11", "DAILYx1"]
 	},
+
 	"event_6070_5W_Daily_01": {
 		"scoutId": "event_6070_5W_Daily_01",
 		"name": "Daily Scout",
 		"image": "./banners/event_6070_5W_Daily_01.png",
 		"scoutPoints": 1,
-		"startDate": "2026-02-01 06:00:00 UTC",
-		"endDate": "2026-03-01 06:00:00 UTC",
+		"startDate": "2026-03-01 06:00:00 UTC",
+		"endDate": "2026-04-01 06:00:00 UTC",
 		"rarities": {
 			"5": [
 				{ "rate": 0.0002, "pool": ["POKEFAIR_5","MASTERFAIR_5","SEASONAL_5","SPECIALCOSTUME_5","VARIETY_5","ARCFAIR_5"] },
@@ -259,8 +411,8 @@ export const SYNCPAIR_SCOUT = {
 		"name": "Pokémon Masters Day One-Time-Only Happy Scout",
 		"image": "./banners/event_7080_4W_PokeMas_06.png",
 		"scoutPoints": 1,
-		"startDate": "2026-02-25 06:00:00 UTC",
-		"endDate": "2026-02-26 06:00:00 UTC",
+		"startDate": "2026-03-25 06:00:00 UTC",
+		"endDate": "2026-03-26 06:00:00 UTC",
 		"rarities": {
 			"5": [
 				{ "rate": 0.07, "pool": ["SPOTLIGHT_5","POKEFAIR_5","SEASONAL_5","SPECIALCOSTUME_5","VARIETY_5"] }
@@ -273,7 +425,7 @@ export const SYNCPAIR_SCOUT = {
 			]
 		},
 		"guaranteed": [],
-		"exclude": ["Ash_0025","FROM_2026-01-29"],
+		"exclude": ["Ash_0025","FROM_2026-02-26"],
 		"pullButtons": ["MASTERSDAY"]
 	},
 	"event_mastersday2": {
@@ -281,8 +433,8 @@ export const SYNCPAIR_SCOUT = {
 		"name": "Pokémon Masters Day One-Time-Only 5★-Guaranteed Scout A",
 		"image": "./banners/event_7080_4W_PokeMas_07.png",
 		"scoutPoints": 1,
-		"startDate": "2026-02-25 06:00:00 UTC",
-		"endDate": "2026-02-26 06:00:00 UTC",
+		"startDate": "2026-03-25 06:00:00 UTC",
+		"endDate": "2026-03-26 06:00:00 UTC",
 		"rarities": {
 			"5": [
 				{ "rate": 0.07, "pool": ["SPOTLIGHT_5","POKEFAIR_5","SEASONAL_5","SPECIALCOSTUME_5","VARIETY_5"] }
@@ -295,7 +447,7 @@ export const SYNCPAIR_SCOUT = {
 			]
 		},
 		"guaranteed": ["SPOTLIGHT_5","POKEFAIR_5","SEASONAL_5","SPECIALCOSTUME_5","VARIETY_5"],
-		"exclude": ["Ash_0025","FROM_2026-01-29"],
+		"exclude": ["Ash_0025","FROM_2026-02-26"],
 		"pullButtons": ["MASTERSDAY_A"]
 	},
 	"event_mastersday3": {
@@ -303,8 +455,8 @@ export const SYNCPAIR_SCOUT = {
 		"name": "Pokémon Masters Day One-Time-Only 5★-Guaranteed Scout B",
 		"image": "./banners/event_7080_4W_PokeMas_09.png",
 		"scoutPoints": 1,
-		"startDate": "2026-02-25 06:00:00 UTC",
-		"endDate": "2026-02-26 06:00:00 UTC",
+		"startDate": "2026-03-25 06:00:00 UTC",
+		"endDate": "2026-03-26 06:00:00 UTC",
 		"rarities": {
 			"5": [
 				{ "rate": 0.07, "pool": ["SPOTLIGHT_5","POKEFAIR_5","SEASONAL_5","SPECIALCOSTUME_5","VARIETY_5","MASTERFAIR_5"] }
@@ -317,7 +469,7 @@ export const SYNCPAIR_SCOUT = {
 			]
 		},
 		"guaranteed": ["POKEFAIR_5","SEASONAL_5","SPECIALCOSTUME_5","VARIETY_5","MASTERFAIR_5"],
-		"exclude": ["Ash_0025","FROM_2026-01-29"],
+		"exclude": ["Ash_0025","FROM_2026-02-26"],
 		"pullButtons": ["MASTERSDAY_B"]
 	}
 }
