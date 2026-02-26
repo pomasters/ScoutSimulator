@@ -1198,7 +1198,7 @@ function initializeUI() {
 	initializeInitialStats();
 	initializePullButtons();
 	initializeTestButtons();
-	initializeInformationsState();
+	//initializeInformationsState();
 	updateBanner();
 
 	document.getElementById("show-right-panel-btn").addEventListener("click", () => {
