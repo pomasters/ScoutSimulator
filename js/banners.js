@@ -91,9 +91,8 @@ export const SYNCPAIR_SCOUT = {
 			],
 			"5": [
 				{ "rate": 0.01, "pool": ["Florian_1017", "Juliana_1024"] },
-				{ "rate": 0.01, "pool": ["Acerola_0787", "Greta_0286", "Red_0143", "Elaine_0133"] },
 				{ "rate": 0.01, "pool": ["POKEFAIR_5"] },
-				{ "rate": 0.09, "pool": ["SPOTLIGHT_5"] }
+				{ "rate": 0.10, "pool": ["SPOTLIGHT_5"] }
 			]
 		},
 		"guaranteed": [],
