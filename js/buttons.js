@@ -24,11 +24,13 @@ export const SCOUT_BUTTONS = {
 
 	"POKEFAIRx10": { "quantity": 10, "costs": { "tickets": 1 }, "points": 0, "label": "10-Pair Scout","type": "red2" },
 	"SPECIALselectx1": { "quantity": 11, "costs": { "gems": 3000 }, "points": 1, "label": "Special Scout ×11","type": "orange2" },
-	"POKEFAIRx1": { "quantity": 1, "costs": {}, "points": 0, "label": "Fair-Guaranteed Scout","type": "red2" },
-	"POKEFAIRselectx1": { "quantity": 1, "costs": {}, "points": 2, "label": "Fair-Exclusive Select","type": "red2" },
-	"MASTERFAIRx1": { "quantity": 1, "costs": {}, "points": 0, "label": "Master Fair Guaranteed","type": "red2" },
+	"POKEFAIRx1": { "quantity": 1, "costs": { "tickets": 1 }, "points": 0, "label": "Fair-Guaranteed Scout","type": "red2" },
+	"POKEFAIRselectx1": { "quantity": 1, "costs": { "tickets": 1 }, "points": 2, "label": "Fair-Exclusive Select","type": "red2" },
+	"MASTERFAIRx1": { "quantity": 1, "costs": { "tickets": 1 }, "points": 0, "label": "Master Fair Guaranteed","type": "red2" },
 
 	"TICKETx1": { "quantity": 1, "costs": { "tickets": 1 }, "points": 0, "label": "1","type": "red" },
 	"TICKETx5": { "quantity": 5, "costs": { "tickets": 5 }, "points": 0, "label": "5","type": "red" },
-	"TICKETx10": { "quantity": 10, "costs": { "tickets": 10 }, "points": 0, "label": "10","type": "red2" }
+	"TICKETx10": { "quantity": 10, "costs": { "tickets": 10 }, "points": 0, "label": "10","type": "red2" },
+	"TICKETx1_LARGE": { "quantity": 1, "costs": { "tickets": 1 }, "points": 0, "label": "1","type": "red2" },
+	"TICKETx5_LARGE": { "quantity": 5, "costs": { "tickets": 5 }, "points": 0, "label": "5","type": "red2" }
 }

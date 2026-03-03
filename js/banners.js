@@ -475,23 +475,23 @@ export const SYNCPAIR_SCOUT = {
 
 
 export const TICKET_SCOUT = {
-	"ticket_pokefair": {
-		"scoutId": "event_7070_0W_FesTicket_01",
-		"name": "Fair-Exclusive 5★-Guaranteed Ticket Scout",
-		"image": "./banners/event_7070_0W_FesTicket_01.png",
+	"ticket_masterfair": {
+		"scoutId": "event_8010_0W_MasterFes_ticket_01",
+		"name": "Master Fair Guaranteed Ticket Scout",
+		"image": "./banners/event_8010_0W_MasterFes_ticket_01.png",
 		"scoutPoints": 2,
 		"startDate": "",
 		"endDate": "",
 		"rarities": {
 			"5": [
-				{ "rate": 1, "pool": ["POKEFAIR_5"] }
+				{ "rate": 1, "pool": ["MASTERFAIR_5"] }
 			],
 			"4": [],
 			"3": []
 		},
 		"guaranteed": [],
-		"exclude": [],
-		"pullButtons": ["POKEFAIRx1"]
+		"exclude": ["Ash_0025"],
+		"pullButtons": ["MASTERFAIRx1"]
 	},
 
 	"ticket_pokefair_select": {
@@ -517,23 +517,23 @@ export const TICKET_SCOUT = {
 		"pullButtons": ["POKEFAIRselectx1"]
 	},
 
-	"ticket_masterfair": {
-		"scoutId": "event_8010_0W_MasterFes_ticket_01",
-		"name": "Master Fair Guaranteed Ticket Scout",
-		"image": "./banners/event_8010_0W_MasterFes_ticket_01.png",
+	"ticket_pokefair": {
+		"scoutId": "event_7070_0W_FesTicket_01",
+		"name": "Fair-Exclusive 5★-Guaranteed Ticket Scout",
+		"image": "./banners/event_7070_0W_FesTicket_01.png",
 		"scoutPoints": 2,
 		"startDate": "",
 		"endDate": "",
 		"rarities": {
 			"5": [
-				{ "rate": 1, "pool": ["MASTERFAIR_5"] }
+				{ "rate": 1, "pool": ["POKEFAIR_5"] }
 			],
 			"4": [],
 			"3": []
 		},
 		"guaranteed": [],
-		"exclude": ["Ash_0025"],
-		"pullButtons": ["MASTERFAIRx1"]
+		"exclude": [],
+		"pullButtons": ["POKEFAIRx1"]
 	},
 
 	"ticket_gym_guaranteed": {
@@ -545,31 +545,30 @@ export const TICKET_SCOUT = {
 		"endDate": "",
 		"rarities": {
 			"5": [
-				{ "rate": 0.02, "pool": ["Brock_0141","Winona_0334","Grusha_0614","Whitney_0040","Korrina_0701","Kabu_0038","Roxie_0569","Fantina_0477","Lana_0091"] },
-				{ "rate": 0.05, "pool": ["SPOTLIGHT_5"] },
+				{ "rate": 1, "pool": ["Brock_0141","Winona_0334","Grusha_0614","Whitney_0040","Korrina_0701","Kabu_0038","Roxie_0569","Fantina_0477","Lana_0091"] }
 			],
 			"4": [
-				{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
+				{ "rate": 0, "pool": [] }
 			],
 			"3": [
-				{ "rate": 0.73, "pool": ["SPOTLIGHT_3"] }
+				{ "rate": 0, "pool": [] }
 			]
 		},
-		"guaranteed": ["Brock_0141","Winona_0334","Grusha_0614","Whitney_0040","Korrina_0701","Kabu_0038","Roxie_0569","Fantina_0477","Lana_0091"],
+		"guaranteed": [],
 		"exclude": [],
-		"pullButtons": ["TICKETx1","TICKETx5","TICKETx10"]
+		"pullButtons": ["TICKETx1_LARGE"]
 	},
 
-	"ticket_gyma": {
-		"scoutId": "event_7010_1W_GymTicket_01",
-		"name": "Gym Scout A",
-		"image": "./banners/event_7010_1W_GymTicket_01.png",
+	"ticket_gymc": {
+		"scoutId": "event_7070_0W_GymTicket_03",
+		"name": "Gym Scout C",
+		"image": "./banners/event_7070_0W_GymTicket_03.png",
 		"scoutPoints": 2,
 		"startDate": "",
 		"endDate": "",
 		"rarities": {
 			"5": [
-				{ "rate": 0.02, "pool": ["Brock_0141","Winona_0334","Grusha_0614"] },
+				{ "rate": 0.02, "pool": ["Roxie_0569","Fantina_0477","Lana_0091"] },
 				{ "rate": 0.05, "pool": ["SPOTLIGHT_5"] },
 			],
 			"4": [
@@ -608,16 +607,16 @@ export const TICKET_SCOUT = {
 		"pullButtons": ["TICKETx1","TICKETx5","TICKETx10"]
 	},
 
-	"ticket_gymc": {
-		"scoutId": "event_7070_0W_GymTicket_03",
-		"name": "Gym Scout C",
-		"image": "./banners/event_7070_0W_GymTicket_03.png",
+	"ticket_gyma": {
+		"scoutId": "event_7010_1W_GymTicket_01",
+		"name": "Gym Scout A",
+		"image": "./banners/event_7010_1W_GymTicket_01.png",
 		"scoutPoints": 2,
 		"startDate": "",
 		"endDate": "",
 		"rarities": {
 			"5": [
-				{ "rate": 0.02, "pool": ["Roxie_0569","Fantina_0477","Lana_0091"] },
+				{ "rate": 0.02, "pool": ["Brock_0141","Winona_0334","Grusha_0614"] },
 				{ "rate": 0.05, "pool": ["SPOTLIGHT_5"] },
 			],
 			"4": [
