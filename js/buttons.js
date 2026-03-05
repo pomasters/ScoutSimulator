@@ -27,6 +27,7 @@ export const SCOUT_BUTTONS = {
 	"POKEFAIRx1": { "quantity": 1, "costs": { "tickets": 1 }, "points": 0, "label": "Fair-Guaranteed Scout","type": "red2" },
 	"POKEFAIRselectx1": { "quantity": 1, "costs": { "tickets": 1 }, "points": 2, "label": "Fair-Exclusive Select","type": "red2" },
 	"MASTERFAIRx1": { "quantity": 1, "costs": { "tickets": 1 }, "points": 0, "label": "Master Fair Guaranteed","type": "red2" },
+	"MASTERFAIRx30": { "quantity": 30, "costs": { "gems": 10000 }, "points": 0, "label": "×30","type": "orange2" },
 
 	"TICKETx1": { "quantity": 1, "costs": { "tickets": 1 }, "points": 0, "label": "1","type": "red" },
 	"TICKETx5": { "quantity": 5, "costs": { "tickets": 5 }, "points": 0, "label": "5","type": "red" },

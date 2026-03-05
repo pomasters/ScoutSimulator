@@ -99,6 +99,29 @@ export const SYNCPAIR_SCOUT = {
 		"exclude": ["FROM_2026-03-02"],
 		"pullButtons": ["PAIDx25"]
 	},
+	"event_8020_1W_MasterFes_09": {
+		"scoutId": "event_8020_1W_MasterFes_09",
+		"name": "Pokémon 30-Year Celebration Paid-Gem Scout ×30 Select Master Fair",
+		"image": "./banners/event_8020_1W_MasterFes_09.png",
+		"scoutPoints": 1,
+		"startDate": "2026-03-05 06:00:00 UTC",
+		"endDate": "2026-03-18 06:00:00 UTC",
+		"rarities": {
+			"3": [
+				{ "rate": 0.68, "pool": ["SPOTLIGHT_3"] }
+			],
+			"4": [
+				{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
+			],
+			"5": [
+				{ "rate": 0.01, "pool": ["Kieran_1019","MASTERFAIR_5"] },
+				{ "rate": 0.11, "pool": ["SPOTLIGHT_5"] }
+			]
+		},
+		"guaranteed": [],
+		"exclude": ["FROM_2026-03-05"],
+		"pullButtons": ["MASTERFAIRx30"]
+	},
 	"event_7120_2W_PokeFesSelection_01": {
 		"scoutId": "event_7120_2W_PokeFesSelection_01",
 		"name": "5★-Select Fair-Exclusive Scout ×11",
