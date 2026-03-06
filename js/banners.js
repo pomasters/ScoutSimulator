@@ -119,7 +119,7 @@ export const SYNCPAIR_SCOUT = {
 			]
 		},
 		"guaranteed": [],
-		"exclude": ["FROM_2026-03-05"],
+		"exclude": ["Ash_0025","FROM_2026-03-05"],
 		"pullButtons": ["MASTERFAIRx30"]
 	},
 	"event_7120_2W_PokeFesSelection_01": {
