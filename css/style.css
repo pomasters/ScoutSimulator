@@ -131,10 +131,10 @@ body {
 	border-color: #dcc34d;
 }
 .arc-bg #banner-visual {
-	background-image: url("light2.png");
+	background-image: url("light3.png");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 90%;
+	background-size: 100%;
 }
 .arc-bg #left-panel-bottom {
 	background: none;
