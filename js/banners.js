@@ -63,7 +63,8 @@ export const SYNCPAIR_SCOUT = {
 			"5": [
 				{ "rate": 0.01, "pool": ["Kieran_0162"] },
 				{ "rate": 0.01, "pool": ["Silver_0215", "Grusha_0975"] },
-				{ "rate": 0.10, "pool": ["SPOTLIGHT_5"] }
+				{ "rate": 0.01, "pool": ["POKEFAIR_5"] },
+				{ "rate": 0.09, "pool": ["SPOTLIGHT_5"] }
 			]
 		},
 		"guaranteed": [],
@@ -85,8 +86,8 @@ export const SYNCPAIR_SCOUT = {
 				{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
 			],
 			"5": [
-				{ "rate": 0.02, "pool": ["Rika_0984", "Poppy_0990"] },
-				{ "rate": 0.05, "pool": ["SPOTLIGHT_5"] }
+				{ "rate": 0.03, "pool": ["Rika_0984", "Poppy_0990"] },
+				{ "rate": 0.04, "pool": ["SPOTLIGHT_5"] }
 			]
 		},
 		"guaranteed": [],
