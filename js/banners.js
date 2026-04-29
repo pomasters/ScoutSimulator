@@ -24,7 +24,7 @@ export const SYNCPAIR_SCOUT = {
 		"exclude": ["FROM_2026-04-29"],
 		"pullButtons": ["GEMx1", "GEMx11", "DAILYx1"]
 	},
-	/*"event_8040_1W_MasterTicket_01": {
+	"event_8040_1W_MasterTicket_01": {
 		"scoutId": "event_8040_1W_MasterTicket_01",
 		"name": "Paldea Fair–Exclusive Guaranteed Ticket Scout",
 		"image": "./banners/event_8040_1W_MasterTicket_01.png",
@@ -45,7 +45,7 @@ export const SYNCPAIR_SCOUT = {
 		"guaranteed": [],
 		"exclude": ["FROM_2026-04-29"],
 		"pullButtons": ["TICKETx1_LARGE"]
-	},*/
+	},
 	"event_8040_1W_MasterExFes_04": {
 		"scoutId": "event_8040_1W_MasterExFes_04",
 		"name": "Sygna Suit Kieran EX Master Fair",
@@ -304,7 +304,7 @@ export const SYNCPAIR_SCOUT = {
 			]
 		},
 		"guaranteed": [],
-		"exclude": ["FROM_2026-05-01","Ash_0025"],
+		"exclude": ["FROM_2026-05-01","Ash_0025","Drayton_1018"],
 		"pullButtons": ["PAIDx1","PAIDx3","PAIDx5"]
 	},
 	"event_mastersday1": {
