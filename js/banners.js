@@ -63,7 +63,8 @@ export const SYNCPAIR_SCOUT = {
 			"5": [
 				{ "rate": 0.01, "pool": ["Kieran_0162"] },
 				{ "rate": 0.01, "pool": ["Silver_0215", "Grusha_0975"] },
-				{ "rate": 0.10, "pool": ["SPOTLIGHT_5","POKEFAIR_5"] }
+				{ "rate": 0.01, "pool": ["POKEFAIR_5"] },
+				{ "rate": 0.09, "pool": ["SPOTLIGHT_5"] }
 			]
 		},
 		"guaranteed": [],
@@ -266,7 +267,7 @@ export const SYNCPAIR_SCOUT = {
 		"endDate": "2026-06-01 06:00:00 UTC",
 		"rarities": {
 			"5": [
-				{ "rate": 0.0002, "pool": ["POKEFAIR_5","MASTERFAIR_5","SEASONAL_5","SPECIALCOSTUME_5","VARIETY_5","ARCFAIR_5"] },
+				{ "rate": 0.0002, "pool": ["POKEFAIR_5","MASTERFAIR_5","SEASONAL_5","SPECIALCOSTUME_5","VARIETY_5","ARCFAIR_5","EXFAIR_5","EXMASTERFAIR_5"] },
 				{ "rate": 0.0098, "pool": ["SPOTLIGHT_5"] }
 			],
 			"4": [
@@ -277,7 +278,7 @@ export const SYNCPAIR_SCOUT = {
 			]
 		},
 		"guaranteed": [],
-		"exclude": ["Ash_0025","FROM_2026-01-29"],
+		"exclude": ["Ash_0025","FROM_2026-02-26"],
 		"pullButtons": ["FREEx1_LARGE"]
 	},
 	"event_8040_0W_Mix_03": {
