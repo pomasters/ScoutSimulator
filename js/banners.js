@@ -63,8 +63,7 @@ export const SYNCPAIR_SCOUT = {
 			"5": [
 				{ "rate": 0.01, "pool": ["Kieran_0162"] },
 				{ "rate": 0.01, "pool": ["Silver_0215", "Grusha_0975"] },
-				{ "rate": 0.01, "pool": ["POKEFAIR_5"] },
-				{ "rate": 0.09, "pool": ["SPOTLIGHT_5"] }
+				{ "rate": 0.10, "pool": ["SPOTLIGHT_5","POKEFAIR_5"] }
 			]
 		},
 		"guaranteed": [],
