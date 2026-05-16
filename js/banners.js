@@ -260,7 +260,7 @@ export const SYNCPAIR_SCOUT = {
 	},
 	"event_6070_5W_Daily_01": {
 		"scoutId": "event_6070_5W_Daily_01",
-		"name": "Daily Scout",
+		"name": "Daily Scout (rates pre-may 2026)",
 		"image": "./banners/event_6070_5W_Daily_01.png",
 		"scoutPoints": 1,
 		"startDate": "2026-05-01 06:00:00 UTC",
