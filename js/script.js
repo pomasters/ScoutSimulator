@@ -904,9 +904,13 @@ function buildBannerInfosHTML(banner) {
 	? `<p><strong>Dates:</strong> ${banner.startDate} to ${banner.endDate}</p>` 
 	: '';
 
+	const rateSource = banner.name.includes("Daily Scout")
+	? `<br><p><strong>Rate source: </strong> Absol-utely</p>` 
+	: '';
+
 	document.getElementById("banner-name").textContent = banner.name;
 
-	document.getElementById("banner-infos").innerHTML = scoutPointsP + datesP;
+	document.getElementById("banner-infos").innerHTML = scoutPointsP + datesP + rateSource;
 
 	let guaranteedInfoP = '';
 	if(banner.guaranteedPool && banner.guaranteedPool.length > 0) {
