@@ -73,6 +73,29 @@ export const SYNCPAIR_SCOUT = {
 		"exclude": ["FROM_2026-06-04"],
 		"pullButtons": ["GEMx1", "GEMx11", "DAILYx1"]
 	},
+	"event_8050_1W_MasterFes_06_02": {
+		"scoutId": "event_8050_1W_MasterFes_06_02",
+		"name": "One-Time-Only! Sygna Suit Kris Guaranteed Master Fair",
+		"image": "./banners/event_8050_1W_MasterFes_06_01.png",
+		"scoutPoints": 1,
+		"startDate": "2026-06-04 06:00:00 UTC",
+		"endDate": "2026-06-20 06:00:00 UTC",
+		"rarities": {
+			"3": [
+				{ "rate": 0.68, "pool": ["SPOTLIGHT_3"] }
+			],
+			"4": [
+				{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
+			],
+			"5": [
+				{ "rate": 0.01, "pool": ["Kris_0245"] },
+				{ "rate": 0.11, "pool": ["SPOTLIGHT_5"] }
+			]
+		},
+		"guaranteed": ["Kris_0245"],
+		"exclude": ["FROM_2026-06-04"],
+		"pullButtons": ["GEMx11_10k"]
+	},
 	"event_8050_3W_ExPokeFes_01": {
 		"scoutId": "event_8050_3W_ExPokeFes_01",
 		"name": "Raifort EX Fair",

@@ -5,6 +5,7 @@ export const SCOUT_BUTTONS = {
 
 	"GEMx1": { "quantity": 1, "costs": { "gems": 300 }, "points": 3, "label": "×1","type": "blue" },
 	"GEMx11": { "quantity": 11, "costs": { "gems": 3000 }, "points": 33, "label": "×11","type": "blue" },
+	"GEMx11_10k": { "quantity": 11, "costs": { "gems": 10000 }, "points": 0, "label": "×11","type": "blue2" },
 
 	"PAIDx1": { "quantity": 1, "costs": { "gems": 100 }, "points": 1, "label": "×1","type": "orange" },
 	"PAIDx3": { "quantity": 3, "costs": { "gems": 300 }, "points": 3, "label": "×3","type": "orange" },
