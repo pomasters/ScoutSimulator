@@ -1,6 +1,8 @@
-import { SCOUT_BUTTONS } from './buttons.js';
-import { SYNCPAIR_SCOUT, TEMPLATE_SCOUT, TICKET_SCOUT } from './banners.js';
-import { SYNCPAIR_SCOUT2 } from './banners2.js';
+import SCOUT_BUTTONS from "./buttons.json" with { type: "json" };
+import BANNERS from "./banners.json" with { type: "json" };
+import SYNCPAIR_SCOUT2 from "./banners2.json" with { type: "json" };
+
+const { SYNCPAIR_SCOUT, TEMPLATE_SCOUT, TICKET_SCOUT } = BANNERS;
 
 
 // ===== CONFIGURATION =====

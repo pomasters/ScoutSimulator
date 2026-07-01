@@ -1,4 +1,4 @@
-export const SCOUT_BUTTONS = {
+{
 	"PITY": { "quantity": 1, "costs": {}, "points": 0, "label": "Choose","type": "free2" },
 
 	"DAILYx1": { "quantity": 1, "costs": { "gems": 100 }, "points": 1, "label": "×1","type": "orange2" },

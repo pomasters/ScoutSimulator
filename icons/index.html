@@ -132,8 +132,10 @@
 	<div id="syncpairs"></div>
 
 	<script type="module">
-		import { SYNCPAIRS } from 'https://pomasters.github.io/SyncPairsTracker/js/syncpairs.js';
-		import { EGGS } from 'https://pomasters.github.io/SyncPairsTracker/js/eggs.js';
+		import MASTER from "https://pomasters.github.io/SyncPairsTracker/js/syncpairs.json" with { type: "json" };
+		import EGGS from "https://pomasters.github.io/SyncPairsTracker/js/eggs.json" with { type: "json" };
+
+		const { VERSION, SYNCPAIRS } = MASTER;
 
 		const typeOrder = ["Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy"];
 
