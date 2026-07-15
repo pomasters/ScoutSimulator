@@ -160,7 +160,7 @@ body {
 		filter: brightness(1.2) blur(1px);
 	}
 	25%, 75% {
-		transform: rotate(0.5deg) scale(1.06);
+		transform: rotate(0.2deg) scale(1.2);
 	}
 }
 
