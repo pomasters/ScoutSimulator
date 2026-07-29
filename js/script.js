@@ -1222,9 +1222,13 @@ function initializeUI() {
 }
 
 function initialize() {
-	import("https://pomasters.github.io/SyncPairsTracker/js/syncpairs.js")
-	.then(module => {
-		const processedSyncPairs = processSyncPairs(module.SYNCPAIRS)
+	fetch("https://pomasters.github.io/SyncPairsTracker/js/syncpairs.json")
+	.then(response => {
+		if(!response.ok) throw new Error(`HTTP error: ${response.status}`);
+		return response.json();
+	})
+	.then(data => {
+		const processedSyncPairs = processSyncPairs(data.SYNCPAIRS)
 
 		STATE.syncPairIndex = processedSyncPairs.index;
 		STATE.basePools = processedSyncPairs.pools;
