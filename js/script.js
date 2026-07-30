@@ -308,12 +308,11 @@ function performPull(banner, btn) {
 	const results = [];
 
 	const hasGuaranteed = banner.guaranteedPool && banner.guaranteedPool.length > 0;
-	const guaranteedPosition = hasGuaranteed ? Math.floor(Math.random() * btn.quantity) : -1;
 
 	for(let i = 0; i < btn.quantity; i++) {
 		let syncPair;
 
-		if(i === guaranteedPosition) {
+		if(hasGuaranteed && (i === btn.quantity - 1)) {
 			syncPair = pullGuaranteedCharacter(banner);
 		} else {
 			syncPair = pullCharacter(banner);
@@ -912,7 +911,7 @@ function buildBannerInfosHTML(banner) {
 
 	document.getElementById("banner-name").textContent = banner.name;
 
-	document.getElementById("banner-infos").innerHTML = scoutPointsP + datesP + rateSource;
+	document.getElementById("banner-infos").innerHTML = datesP + rateSource;
 
 	let guaranteedInfoP = '';
 	if(banner.guaranteedPool && banner.guaranteedPool.length > 0) {
