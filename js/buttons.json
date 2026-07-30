@@ -23,10 +23,13 @@
 	"MASTERSDAY_A": { "quantity": 11, "costs": { "gems": 250 }, "points": 0, "label": "×11","type": "orange2" },
 	"MASTERSDAY_B": { "quantity": 11, "costs": { "gems": 2500 }, "points": 0, "label": "×11","type": "orange2" },
 
+	"POKEFAIRx7": { "quantity": 7, "costs": { "gems": 7000 }, "points": 0, "label": "×7","type": "orange2" },
 	"POKEFAIRx10": { "quantity": 10, "costs": { "tickets": 1 }, "points": 0, "label": "10-Pair Scout","type": "red2" },
 	"SPECIALselectx1": { "quantity": 11, "costs": { "gems": 3000 }, "points": 1, "label": "Special Scout ×11","type": "orange2" },
 	"POKEFAIRx1": { "quantity": 1, "costs": { "tickets": 1 }, "points": 0, "label": "Fair-Guaranteed Scout","type": "red2" },
 	"POKEFAIRselectx1": { "quantity": 1, "costs": { "tickets": 1 }, "points": 2, "label": "Fair-Exclusive Select","type": "red2" },
+	"EXFAIRselectx1": { "quantity": 25, "costs": { "gems": 5000 }, "points": 1, "label": "EX Fair-Exclusive Select","type": "orange2" },
+
 	"MASTERFAIRx1": { "quantity": 1, "costs": { "tickets": 1 }, "points": 0, "label": "Master Fair Guaranteed","type": "red2" },
 	"MASTERFAIRx30": { "quantity": 30, "costs": { "gems": 10000 }, "points": 1, "label": "×30","type": "orange2" },
 	"MASTERFAIRselectx11": { "quantity": 11, "costs": { "tickets": 1 }, "points": 2, "label": "Master Fair Select","type": "red2" },

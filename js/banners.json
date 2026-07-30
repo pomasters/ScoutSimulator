@@ -54,7 +54,7 @@
 			"image": "./banners/event_8070_3W_forTicket_01.png",
 			"scoutPoints": 2,
 			"startDate": "2026-08-14 06:00:00 UTC",
-			"endDate": "2026-10-08 06:00:00 UTC",
+			"endDate": "2026-10-07 06:00:00 UTC",
 			"rarities": {
 				"3": [
 					{ "rate": 0.73, "pool": ["SPOTLIGHT_3"] }
@@ -77,7 +77,7 @@
 			"image": "./banners/event_8070_3W_forTicket_01.png",
 			"scoutPoints": 2,
 			"startDate": "2026-08-14 06:00:00 UTC",
-			"endDate": "2026-10-08 06:00:00 UTC",
+			"endDate": "2026-10-07 06:00:00 UTC",
 			"rarities": {
 				"3": [
 					{ "rate": 0.73, "pool": ["SPOTLIGHT_3"] }
@@ -189,6 +189,48 @@
 			"guaranteed": [],
 			"exclude": ["FROM_2026-08-16"],
 			"pullButtons": ["PAIDx25"]
+		},
+		"event_8070_3W_PokeFes_07": {
+			"scoutId": "event_8070_3W_PokeFes_07",
+			"name": "Marvelous Mega Run-Up to 7 (UNCONFIRMED)",
+			"image": "./banners/event_8070_3W_PokeFes_07.png",
+			"scoutPoints": 1,
+			"startDate": "2026-08-19 06:00:00 UTC",
+			"endDate": "2026-08-28 06:00:00 UTC",
+			"rarities": {
+				"3": [],
+				"4": [],
+				"5": [
+					{ "rate": 1, "pool": ["POKEFAIR_5"] }
+				]
+			},
+			"guaranteed": [],
+			"exclude": ["FROM_2026-08-19"],
+			"pullButtons": ["POKEFAIRx7"]
+		},
+		"event_8070_3W_ExPokeFes_08": {
+			"scoutId": "event_8070_3W_ExPokeFes_08",
+			"name": "5★-Select EX Fair-Exclusive Scout ×25 (UNCONFIRMED)",
+			"image": "./banners/event_8070_3W_ExPokeFes_08.png",
+			"scoutPoints": 1,
+			"startDate": "2026-08-21 06:00:00 UTC",
+			"endDate": "2026-08-28 06:00:00 UTC",
+			"rarities": {
+				"3": [
+					{ "rate": 0.7, "pool": ["SPOTLIGHT_3"] }
+				],
+				"4": [
+					{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
+				],
+				"5": [
+					{ "rate": 0.02, "pool": ["EXFAIR_5"] },
+					{ "rate": 0.01, "pool": ["POKEFAIR_5"] },
+					{ "rate": 0.07, "pool": ["SPOTLIGHT_5"] }
+				]
+			},
+			"guaranteed": [],
+			"exclude": ["FROM_2026-07-30"],
+			"pullButtons": ["EXFAIRselectx1"]
 		},
 		"event_8070_0W_Monthly_01_01": {
 			"scoutId": "event_8070_0W_Monthly_01_01",
