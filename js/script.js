@@ -988,7 +988,7 @@ function setBannerBackground(banner) {
 
 	const classes = [];
 
-	if(name.includes("Master Fair")) {
+	if(name.includes("Master Fair") && !name.includes("Master Fair Select Ticket")) {
 		if(name.includes("EX ")) {
 			classes.push("ex-masterfair-bg");
 		} else {
