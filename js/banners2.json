@@ -1,4 +1,262 @@
 {
+	"2026-08": null,
+	"event_8070_1W_ExPokeFes_01": {
+		"scoutId": "event_8070_1W_ExPokeFes_01",
+		"name": "Carmine EX Fair",
+		"image": "./banners/event_8070_1W_ExPokeFes_01.png",
+		"scoutPoints": 400,
+		"startDate": "2026-07-31 06:00:00 UTC",
+		"endDate": "2026-08-18 06:00:00 UTC",
+		"rarities": {
+			"3": [
+				{ "rate": 0.7, "pool": ["SPOTLIGHT_3"] }
+			],
+			"4": [
+				{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
+			],
+			"5": [
+				{ "rate": 0.02, "pool": ["Carmine_0262"] },
+				{ "rate": 0.01, "pool": ["Giacomo_0983", "Cyrus_0491"] },
+				{ "rate": 0.07, "pool": ["SPOTLIGHT_5"] }
+			]
+		},
+		"guaranteed": [],
+		"exclude": ["FROM_2026-07-31"],
+		"pullButtons": ["GEMx1", "GEMx11", "DAILYx1"]
+	},
+	"event_8070_1W_ExPokeFes_02": {
+		"scoutId": "event_8070_1W_ExPokeFes_02",
+		"name": "Florian EX Fair",
+		"image": "./banners/event_8070_1W_ExPokeFes_02.png",
+		"scoutPoints": 400,
+		"startDate": "2026-07-31 06:00:00 UTC",
+		"endDate": "2026-08-18 06:00:00 UTC",
+		"rarities": {
+			"3": [
+				{ "rate": 0.7, "pool": ["SPOTLIGHT_3"] }
+			],
+			"4": [
+				{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
+			],
+			"5": [
+				{ "rate": 0.02, "pool": ["Florian_0469"] },
+				{ "rate": 0.01, "pool": ["Alder_0637", "Hilbert_0649"] },
+				{ "rate": 0.07, "pool": ["SPOTLIGHT_5"] }
+			]
+		},
+		"guaranteed": [],
+		"exclude": ["FROM_2026-07-31"],
+		"pullButtons": ["GEMx1", "GEMx11", "DAILYx1"]
+	},
+	"event_8010_3W_forTicket_01": {
+		"scoutId": "event_8070_3W_forTicket_01",
+		"name": "10-Pair Scout (Fair-exclusive pairs included!)",
+		"image": "./banners/event_8070_3W_forTicket_01.png",
+		"scoutPoints": 2,
+		"startDate": "2026-08-14 06:00:00 UTC",
+		"endDate": "2026-10-07 06:00:00 UTC",
+		"rarities": {
+			"3": [
+				{ "rate": 0.73, "pool": ["SPOTLIGHT_3"] }
+			],
+			"4": [
+				{ "rate": 0.2, "pool": ["SPOTLIGHT_4","POKEFAIR_4"] }
+			],
+			"5": [
+				{ "rate": 0.05, "pool": ["SPOTLIGHT_5"] },
+				{ "rate": 0.02, "pool": ["POKEFAIR_5"] }
+			]
+		},
+		"guaranteed": [],
+		"exclude": ["FROM_2026-08-14"],
+		"pullButtons": ["POKEFAIRx10"]
+	},
+	"event_8070_3W_forTicket_02": {
+		"scoutId": "event_8070_3W_forTicket_02",
+		"name": "10-Pair Scout (Fair-exclusive pair guaranteed!)",
+		"image": "./banners/event_8070_3W_forTicket_01.png",
+		"scoutPoints": 2,
+		"startDate": "2026-08-14 06:00:00 UTC",
+		"endDate": "2026-10-07 06:00:00 UTC",
+		"rarities": {
+			"3": [
+				{ "rate": 0.73, "pool": ["SPOTLIGHT_3"] }
+			],
+			"4": [
+				{ "rate": 0.2, "pool": ["SPOTLIGHT_4","POKEFAIR_4"] }
+			],
+			"5": [
+				{ "rate": 0.05, "pool": ["SPOTLIGHT_5"] },
+				{ "rate": 0.02, "pool": ["POKEFAIR_5"] }
+			]
+		},
+		"guaranteed": ["POKEFAIR_5"],
+		"exclude": ["FROM_2026-08-14"],
+		"pullButtons": ["POKEFAIRx10"]
+	},
+	"event_8070_3W_ExPokeFes_03": {
+		"scoutId": "event_8070_3W_ExPokeFes_03",
+		"name": "Harmony EX Fair",
+		"image": "./banners/event_8070_3W_ExPokeFes_03.png",
+		"scoutPoints": 400,
+		"startDate": "2026-08-14 06:00:00 UTC",
+		"endDate": "2026-09-07 06:00:00 UTC",
+		"rarities": {
+			"3": [
+				{ "rate": 0.7, "pool": ["SPOTLIGHT_3"] }
+			],
+			"4": [
+				{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
+			],
+			"5": [
+				{ "rate": 0.02, "pool": ["Harmony_0160"] },
+				{ "rate": 0.01, "pool": ["Gloria_0892", "Clavell_0914"] },
+				{ "rate": 0.07, "pool": ["SPOTLIGHT_5"] }
+			]
+		},
+		"guaranteed": [],
+		"exclude": ["FROM_2026-08-14"],
+		"pullButtons": ["GEMx1", "GEMx11", "DAILYx1"]
+	},
+	"event_8070_3W_ExPokeFes_03_2": {
+		"scoutId": "event_8070_3W_ExPokeFes_03_2",
+		"name": "48 Hours! Harmony Paid-Gem Scout ×25 EX Fair",
+		"image": "./banners/event_8070_3W_ExPokeFes_03.png",
+		"scoutPoints": 1,
+		"startDate": "2026-08-14 06:00:00 UTC",
+		"endDate": "2026-08-16 06:00:00 UTC",
+		"rarities": {
+			"3": [
+				{ "rate": 0.7, "pool": ["SPOTLIGHT_3"] }
+			],
+			"4": [
+				{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
+			],
+			"5": [
+				{ "rate": 0.02, "pool": ["Harmony_0160"] },
+				{ "rate": 0.01, "pool": ["Gloria_0892", "Clavell_0914"] },
+				{ "rate": 0.07, "pool": ["SPOTLIGHT_5"] }
+			]
+		},
+		"guaranteed": [],
+		"exclude": ["FROM_2026-08-14"],
+		"pullButtons": ["PAIDx25"]
+	},
+	"event_8070_3W_ExPokeFes_05": {
+		"scoutId": "event_8070_3W_ExPokeFes_05",
+		"name": "Urbain EX Fair",
+		"image": "./banners/event_8070_3W_ExPokeFes_05.png",
+		"scoutPoints": 400,
+		"startDate": "2026-08-16 06:00:00 UTC",
+		"endDate": "2026-09-07 06:00:00 UTC",
+		"rarities": {
+			"3": [
+				{ "rate": 0.7, "pool": ["SPOTLIGHT_3"] }
+			],
+			"4": [
+				{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
+			],
+			"5": [
+				{ "rate": 0.02, "pool": ["Urbain_0154"] },
+				{ "rate": 0.01, "pool": ["Acerola_0787", "Greta_0286"] },
+				{ "rate": 0.07, "pool": ["SPOTLIGHT_5"] }
+			]
+		},
+		"guaranteed": [],
+		"exclude": ["FROM_2026-08-16"],
+		"pullButtons": ["GEMx1", "GEMx11", "DAILYx1"]
+	},
+	"event_8070_3W_ExPokeFes_05_2": {
+		"scoutId": "event_8070_3W_ExPokeFes_05_2",
+		"name": "48 Hours! Urbain Paid-Gem Scout ×25 EX Fair",
+		"image": "./banners/event_8070_3W_ExPokeFes_05.png",
+		"scoutPoints": 2,
+		"startDate": "2026-08-16 06:00:00 UTC",
+		"endDate": "2026-08-18 06:00:00 UTC",
+		"rarities": {
+			"3": [
+				{ "rate": 0.7, "pool": ["SPOTLIGHT_3"] }
+			],
+			"4": [
+				{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
+			],
+			"5": [
+				{ "rate": 0.02, "pool": ["Urbain_0154"] },
+				{ "rate": 0.01, "pool": ["Acerola_0787", "Greta_0286"] },
+				{ "rate": 0.07, "pool": ["SPOTLIGHT_5"] }
+			]
+		},
+		"guaranteed": [],
+		"exclude": ["FROM_2026-08-16"],
+		"pullButtons": ["PAIDx25"]
+	},
+	"event_8070_3W_PokeFes_07": {
+		"scoutId": "event_8070_3W_PokeFes_07",
+		"name": "Marvelous Mega Run-Up to 7 (UNCONFIRMED)",
+		"image": "./banners/event_8070_3W_PokeFes_07.png",
+		"scoutPoints": 1,
+		"startDate": "2026-08-19 06:00:00 UTC",
+		"endDate": "2026-08-28 06:00:00 UTC",
+		"rarities": {
+			"3": [],
+			"4": [],
+			"5": [
+				{ "rate": 1, "pool": ["POKEFAIR_5"] }
+			]
+		},
+		"guaranteed": [],
+		"exclude": ["FROM_2026-08-19"],
+		"pullButtons": ["POKEFAIRx7"]
+	},
+	"event_8070_3W_ExPokeFes_08": {
+		"scoutId": "event_8070_3W_ExPokeFes_08",
+		"name": "5★-Select EX Fair-Exclusive Scout ×25 (UNCONFIRMED)",
+		"image": "./banners/event_8070_3W_ExPokeFes_08.png",
+		"scoutPoints": 1,
+		"startDate": "2026-08-21 06:00:00 UTC",
+		"endDate": "2026-08-28 06:00:00 UTC",
+		"rarities": {
+			"3": [
+				{ "rate": 0.7, "pool": ["SPOTLIGHT_3"] }
+			],
+			"4": [
+				{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
+			],
+			"5": [
+				{ "rate": 0.02, "pool": ["EXFAIR_5"] },
+				{ "rate": 0.01, "pool": ["POKEFAIR_5"] },
+				{ "rate": 0.07, "pool": ["SPOTLIGHT_5"] }
+			]
+		},
+		"guaranteed": [],
+		"exclude": ["FROM_2026-07-30"],
+		"pullButtons": ["EXFAIRselectx1"]
+	},
+	"event_8070_0W_Monthly_01_01": {
+		"scoutId": "event_8070_0W_Monthly_01_01",
+		"name": "Monthly Poké Fair Vol. 48",
+		"image": "./banners/event_8070_0W_Monthly_01_01.png",
+		"scoutPoints": 400,
+		"startDate": "2026-08-01 06:00:00 UTC",
+		"endDate": "2026-09-01 06:00:00 UTC",
+		"rarities": {
+			"3": [
+				{ "rate": 0.7, "pool": ["SPOTLIGHT_3"] }
+			],
+			"4": [
+				{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
+			],
+			"5": [
+				{ "rate": 0.02, "pool": ["Carmine_1013"] },
+				{ "rate": 0.08, "pool": ["SPOTLIGHT_5","Cynthia_0445","Steven_0376","Lance_0149","Gloria_0888","N_0644","Marnie_0877","Diantha_0282","Raihan_0884","Lear_0720","Penny_0700","Iono_0939","Volo_0175","Rika_0980","Larry_0982","Kabu_0851","Arven_0943","Ingo_0530","Emmet_0567","Akari_0503","Lacey_0210","Carmine_1013"] }
+			]
+		},
+		"guaranteed": [],
+		"exclude": ["FROM_2026-02-01","Misty_0134","Grimsley_0319","Elesa_0479","Erika_0470","The Masked Royal_0727","Grimsley_0625"],
+		"pullButtons": ["GEMx1", "GEMx11", "DAILYx1"]
+	},
+
+
 	"2026-07": null,
 	"event_8060_1W_Season_02": {
 		"scoutId": "event_8060_1W_Season_02",
@@ -186,6 +444,29 @@
 		"exclude": ["FROM_2026-07-25"],
 		"pullButtons": ["GEMx1", "GEMx11", "DAILYx1"]
 	},
+	"event_8060_0W_Monthly_02": {
+		"scoutId": "event_8060_0W_Monthly_02",
+		"name": "Monthly Poké Fair Vol. 47",
+		"image": "./banners/event_8060_0W_Monthly_02_01.png",
+		"scoutPoints": 400,
+		"startDate": "2026-07-01 06:00:00 UTC",
+		"endDate": "2026-08-01 06:00:00 UTC",
+		"rarities": {
+			"3": [
+				{ "rate": 0.7, "pool": ["SPOTLIGHT_3"] }
+			],
+			"4": [
+				{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
+			],
+			"5": [
+				{ "rate": 0.02, "pool": ["Lacey_0210"] },
+				{ "rate": 0.08, "pool": ["SPOTLIGHT_5","Cynthia_0445","Steven_0376","Lance_0149","Gloria_0888","N_0644","Marnie_0877","Diantha_0282","Raihan_0884","Lear_0720","Penny_0700","Iono_0939","Volo_0175","Rika_0980","Larry_0982","Kabu_0851","Arven_0943","Ingo_0530","Emmet_0567","Akari_0503","Lacey_0210"] }
+			]
+		},
+		"guaranteed": [],
+		"exclude": ["FROM_2026-02-01","Misty_0134","Grimsley_0319","Elesa_0479","Erika_0470","The Masked Royal_0727","Grimsley_0625"],
+		"pullButtons": ["GEMx1", "GEMx11", "DAILYx1"]
+	},
 	"event_8040_0W_Mix_03": {
 		"scoutId": "event_8040_0W_Mix_03",
 		"name": "Hau Mix Scout",
@@ -212,6 +493,7 @@
 		"exclude": ["FROM_2026-05-01","Ash_0025","Drayton_1018"],
 		"pullButtons": ["PAIDx1","PAIDx3","PAIDx5"]
 	},
+
 
 	"2026-06": null,
 	"event_8050_1W_MasterExFes_01": {
