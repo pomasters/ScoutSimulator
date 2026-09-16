@@ -296,8 +296,8 @@
 					{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
 				],
 				"5": [
-					{ "rate": 0.02, "pool": ["Cyrus_0461", "Mars_0432", "Jupiter_0435", "Saturn_0454"] },
-					{ "rate": 0.05, "pool": ["SPOTLIGHT_5"] }
+					{ "rate": 0.04, "pool": ["Cyrus_0461", "Mars_0432", "Jupiter_0435", "Saturn_0454"] },
+					{ "rate": 0.03, "pool": ["SPOTLIGHT_5"] }
 				]
 			},
 			"guaranteed": [],
@@ -313,19 +313,18 @@
 			"endDate": "2026-09-30 06:00:00 UTC",
 			"rarities": {
 				"3": [
-					{ "rate": 0.73, "pool": ["SPOTLIGHT_3"] }
+					{ "rate": 0, "pool": ["SPOTLIGHT_3"] }
 				],
 				"4": [
-					{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
+					{ "rate": 0, "pool": ["SPOTLIGHT_4"] }
 				],
 				"5": [
-					{ "rate": 0.045, "pool": ["Mars_0432", "Jupiter_0435", "Saturn_0454"] },
-					{ "rate": 0.025, "pool": ["SPOTLIGHT_5"] }
+					{ "rate": 1, "pool": ["Mars_0432", "Jupiter_0435", "Saturn_0454"] }
 				]
 			},
 			"guaranteed": [],
 			"exclude": ["FROM_2026-09-16"],
-			"pullButtons": ["GEMx1", "GEMx11", "DAILYx1"]
+			"pullButtons": ["TICKETx1_LARGE"]
 		},
 		"event_8080_3W_MasterExFes_05": {
 			"scoutId": "event_8080_3W_MasterExFes_05",
