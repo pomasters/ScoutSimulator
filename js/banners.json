@@ -157,8 +157,8 @@
 					{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
 				],
 				"5": [
-					{ "rate": 0.02, "pool": ["Shauntal_0478", "Roxanne_0867", "Phoebe_0563", "Iono_0987", "Lacey_0547"] },
-					{ "rate": 0.05, "pool": ["SPOTLIGHT_5"] }
+					{ "rate": 0.05, "pool": ["Shauntal_0478", "Roxanne_0867", "Phoebe_0563", "Iono_0987", "Lacey_0547"] },
+					{ "rate": 0.02, "pool": ["SPOTLIGHT_5"] }
 				]
 			},
 			"guaranteed": [],
@@ -180,8 +180,8 @@
 					{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
 				],
 				"5": [
-					{ "rate": 0.02, "pool": ["Giovanni_0112", "Archer_0229", "Ariana_0024", "Petrel_0110", "Proton_0042"] },
-					{ "rate": 0.05, "pool": ["SPOTLIGHT_5"] }
+					{ "rate": 0.05, "pool": ["Giovanni_0112", "Archer_0229", "Ariana_0024", "Petrel_0110", "Proton_0042"] },
+					{ "rate": 0.02, "pool": ["SPOTLIGHT_5"] }
 				]
 			},
 			"guaranteed": [],
