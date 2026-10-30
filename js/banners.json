@@ -17,7 +17,8 @@
 				"5": [
 					{ "rate": 0.01, "pool": ["Gladion_0773|2"] },
 					{ "rate": 0.01, "pool": ["Palmer_0486", "Larry_0982"] },
-					{ "rate": 0.10, "pool": ["SPOTLIGHT_5"] }
+					{ "rate": 0.03, "pool": ["POKEFAIR_5"] },
+					{ "rate": 0.07, "pool": ["SPOTLIGHT_5"] }
 				]
 			},
 			"guaranteed": [],
@@ -41,7 +42,8 @@
 				"5": [
 					{ "rate": 0.01, "pool": ["Hau_0026|2"] },
 					{ "rate": 0.01, "pool": ["Elesa_0642", "Nemona_0923"] },
-					{ "rate": 0.10, "pool": ["SPOTLIGHT_5"] }
+					{ "rate": 0.03, "pool": ["POKEFAIR_5"] },
+					{ "rate": 0.07, "pool": ["SPOTLIGHT_5"] }
 				]
 			},
 			"guaranteed": [],
