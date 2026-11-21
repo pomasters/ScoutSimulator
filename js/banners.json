@@ -196,7 +196,7 @@
 		},
 		"event_8100_4W_MasterTicket_07": {
 			"scoutId": "event_8100_4W_MasterTicket_07",
-			"name": "Eevee Day Celebration Ticket Scout (Pending confirmation)",
+			"name": "Eevee Day Celebration Ticket Scout",
 			"image": "./banners/event_8100_4W_MasterTicket_07.png",
 			"scoutPoints": 2,
 			"startDate": "2026-11-21 06:00:00 UTC",
@@ -214,21 +214,17 @@
 		},
 		"event_8100_4W_SuperTicket_04": {
 			"scoutId": "event_8100_4W_SuperTicket_04",
-			"name": "Variety Featured Ticket Scout (Pending confirmation)",
+			"name": "Variety Featured Ticket Scout",
 			"image": "./banners/event_8100_4W_SuperTicket_04.png",
 			"scoutPoints": 2,
 			"startDate": "2026-11-21 06:00:00 UTC",
 			"endDate": "2026-12-12 06:00:00 UTC",
 			"rarities": {
-				"3": [
-					{ "rate": 0.73, "pool": ["SPOTLIGHT_3"] }
-				],
-				"4": [
-					{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
-				],
+				"3": [],
+				"4": [],
 				"5": [
-					{ "rate": 0.02, "pool": ["Lyra_0134", "Calem_0700", "Hilda_0470", "Kris_0135", "Hilbert_0471", "Elio_0196", "Selene_0197", "Lucas_0136", "Chase_0133"] },
-					{ "rate": 0.05, "pool": ["SPOTLIGHT_5"] }
+					{ "rate": 0.25, "pool": ["Lyra_0134", "Calem_0700", "Hilda_0470", "Kris_0135", "Hilbert_0471", "Elio_0196", "Selene_0197", "Lucas_0136", "Chase_0133"] },
+					{ "rate": 0.75, "pool": ["SPOTLIGHT_5"] }
 				]
 			},
 			"guaranteed": [],
@@ -237,7 +233,7 @@
 		},
 		"event_8100_4W_Variety_01": {
 			"scoutId": "event_8100_4W_Variety_01",
-			"name": "Variety-Exclusives Only Variety Scout ×5 (Pending confirmation)",
+			"name": "Variety-Exclusives Only Variety Scout ×5",
 			"image": "./banners/event_8100_4W_Variety_01.png",
 			"scoutPoints": 1,
 			"startDate": "2026-11-21 06:00:00 UTC",
@@ -255,7 +251,7 @@
 		},
 		"event_8100_4W_Variety_02": {
 			"scoutId": "event_8100_4W_Variety_02",
-			"name": "Super Spotlight Variety Scout (Pending confirmation)",
+			"name": "Super Spotlight Variety Scout",
 			"image": "./banners/event_8100_4W_Variety_02.png",
 			"scoutPoints": 400,
 			"startDate": "2026-11-21 06:00:00 UTC",
@@ -268,8 +264,8 @@
 					{ "rate": 0.2, "pool": ["SPOTLIGHT_4"] }
 				],
 				"5": [
-					{ "rate": 0.02, "pool": ["Lyra_0134", "Calem_0700", "Hilda_0470", "Kris_0135", "Hilbert_0471", "Elio_0196", "Selene_0197", "Lucas_0136", "Chase_0133"] },
-					{ "rate": 0.05, "pool": ["SPOTLIGHT_5"] }
+					{ "rate": 0.045, "pool": ["Lyra_0134", "Calem_0700", "Hilda_0470", "Kris_0135", "Hilbert_0471", "Elio_0196", "Selene_0197", "Lucas_0136", "Chase_0133"] },
+					{ "rate": 0.025, "pool": ["SPOTLIGHT_5"] }
 				]
 			},
 			"guaranteed": [],
