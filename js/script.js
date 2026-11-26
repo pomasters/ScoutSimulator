@@ -656,7 +656,7 @@ function createPullButton(btnId, btn, banner) {
 
 // ===== RESULTS DISPLAY =====
 function createResultDiv(syncPair) {
-	const { trainerName, pokemonName, pokemonNumber, internalTrainerName, images } = syncPair;
+	const { trainerName, pokemonName, pokemonNumber, trainerActorId, images } = syncPair;
 
 	const imgSrc = images[0];
 
@@ -668,7 +668,7 @@ function createResultDiv(syncPair) {
 	result.dataset.trainerName = trainerName;
 	result.dataset.pokemonName = pokemonName;
 	result.dataset.pokemonNum = pokemonNumber;
-	result.dataset.internalTrainerName = internalTrainerName;
+	result.dataset.trainerActorId = trainerActorId;
 
 	result.innerHTML = `
 		<img src="${imgSrc}" alt="${fullName}" title="${fullName}" class="pair-image" loading="lazy">
@@ -764,7 +764,7 @@ async function animateResults(container, results) {
 
 		const fiveStarResults = results.filter(sp => sp.syncPairRarity === "5");
 		const preloadPromises = fiveStarResults.map(syncPair => {
-			const mindscapeSrc = `${CONFIG.MINDSCAPE_PATH}Tx_${syncPair.internalTrainerName}_mindscape00.png`;
+			const mindscapeSrc = `${CONFIG.MINDSCAPE_PATH}Tx_${syncPair.trainerActorId}_mindscape00.png`;
 			return preloadImage(mindscapeSrc).catch(() => null);
 		});
 
@@ -790,7 +790,7 @@ async function animateResults(container, results) {
 				placeholder.querySelector("img")?.classList.add("flashing");
 				await delay(CONFIG.FLASH_DELAY);
 
-				await showMindscape(syncPair.internalTrainerName);
+				await showMindscape(syncPair.trainerActorId);
 			}
 
 			reveal(placeholder, syncPair, container);
@@ -812,13 +812,13 @@ function reveal(placeholder, syncPair, container) {
 	}
 }
 
-function showMindscape(internalTrainerName) {
+function showMindscape(trainerActorId) {
 	return new Promise((resolve) => {
 		const viewer = document.getElementById("mindscape-viewer");
 		const bg = document.getElementById("mindscape-bg");
 		const image = document.getElementById("mindscape-image");
 
-		const mindscapeSrc = `${CONFIG.MINDSCAPE_PATH}Tx_${internalTrainerName}_mindscape00.png`;
+		const mindscapeSrc = `${CONFIG.MINDSCAPE_PATH}Tx_${trainerActorId}_mindscape00.png`;
 
 		image.src = mindscapeSrc;
 		viewer.classList.remove("hide");
